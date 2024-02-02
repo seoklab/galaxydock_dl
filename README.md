@@ -40,9 +40,12 @@ We recommend checking src/gd_dl/path_setting.py if you want to change path setti
 ### Running docking
 Run docking for a single ligand mol2 file and a protein receptor file without the ligand. (A center coordinate of a docking box (22.5 angstrom^3) is usually set to a coordinate of cognate ligand's center of mass for docking box to include a binding site.)<br/>
 
-Random seeds were set to zero, but you can modify random seeds by adding argument '--random_seed <random_seed value>'.<br/>
-Default output directory is set to current working directory, but you can modify random seeds by adding argument '--out_dir <location of output directory>'.<br/>
-You can change length of docking box by adding argument '--box_size <box size value in angstrom>'.<br/>
+Random seeds were set to zero, but you can modify random seeds by adding argument<br/>
+'--random_seed <random_seed value>'.<br/>
+Default output directory is set to current working directory, but you can modify random seeds by adding argument <br/>
+'--out_dir <location of output directory>'.<br/>
+You can change length of docking box by adding argument <br/>
+'--box_size <box size value in angstrom>'.<br/>
 
 ```bash
 $ python scripts/run_gd_dl.py -p <path to protein receptor file(.pdb)> -l <path to ligand file(.mol2)> -x <center x coordinate of a docking box> -y <center y coordinate of a docking box> -z <center z coordinate of a docking box>
