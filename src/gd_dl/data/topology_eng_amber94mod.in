@@ -1,0 +1,3252 @@
+** DATA FILE FOR REFERENCE RESIDUES FOR GEOMETRY **
+
+--------------------------------------------------------------------------
+RES CYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES CYM
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES MET
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CE      0
+ATM CG    4    CE      0
+ATM SD    5    CE      0
+ATM CE    6    CE      0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   SD  
+BND SD   CE  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   SD
+ANG CG   SD   CE
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   SD
+DIH CB   CG   SD   CE
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES PHE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CD2     0
+ATM CG    4    CD2     1
+ATM CD1   5    CD2     1
+ATM CE1   6    CD2     1
+ATM CZ    7    CD2     1
+ATM CE2   8    CD2     1
+ATM CD2   9    CD2     1
+ATM C    10    ENDC    0
+ATM O    11    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  CE1 
+BND CE1  CZ  
+BND CZ   CE2 
+BND CE2  CD2 
+BND CG   CD2 
+IMP CA   +N   C    O
+IMP CD1  CD2  CG   CB
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  CE1
+ANG CD1  CE1  CZ
+ANG CE1  CZ   CE2
+ANG CZ   CE2  CD2
+ANG CE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  CE1
+DIH CD2  CG   CD1  CE1
+DIH CG   CD1  CE1  CZ
+DIH CD1  CE1  CZ   CE2
+DIH CE1  CZ   CE2  CD2
+DIH CZ   CE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE2
+END
+
+--------------------------------------------------------------------------
+RES ILE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG2   4    CG2     0
+ATM CG1   5    CD1     0
+ATM CD1   6    CD1     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG2 
+BND CB   CG1 
+BND CG1  CD1 
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG2
+ANG CA   CB   CG1
+ANG CG2  CB   CG1
+ANG CB   CG1  CD1
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG2
+DIH N    CA   CB   CG1
+DIH C    CA   CB   CG2
+DIH C    CA   CB   CG1
+DIH CA   CB   CG1  CD1
+DIH CG2  CB   CG1  CD1
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES LEU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CD2     0
+ATM CG    4    CD2     0
+ATM CD1   5    CD1     0
+ATM CD2   6    CD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CG   CD2 
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES VAL
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG1   4    CG1     0
+ATM CG2   5    CG2     0
+ATM C     6    ENDC    0
+ATM O     7    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG1 
+BND CB   CG2 
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG1
+ANG CA   CB   CG2
+ANG CG1  CB   CG2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG1
+DIH N    CA   CB   CG2
+DIH C    CA   CB   CG1
+DIH C    CA   CB   CG2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES TRP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CH2     0
+ATM CG    4    CH2     1
+ATM CD1   5    NE1     1
+ATM NE1   6    NE1     1
+ATM CE2   7    CH2     1
+ATM CZ2   8    CZ2     1
+ATM CH2   9    CH2     1
+ATM CZ3  10    CZ3     1
+ATM CE3  11    CE3     1
+ATM CD2  12    CH2     1
+ATM C    13    ENDC    0
+ATM O    14    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  NE1 
+BND NE1  CE2 
+BND CE2  CZ2 
+BND CZ2  CH2 
+BND CH2  CZ3 
+BND CZ3  CE3 
+BND CE3  CD2 
+BND CG   CD2 
+BND CE2  CD2 
+IMP CA   +N   C    O
+IMP CD1  CD2  CG   CB
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  NE1
+ANG CD1  NE1  CE2
+ANG NE1  CE2  CZ2
+ANG NE1  CE2  CD2
+ANG CZ2  CE2  CD2
+ANG CE2  CZ2  CH2
+ANG CZ2  CH2  CZ3
+ANG CH2  CZ3  CE3
+ANG CZ3  CE3  CD2
+ANG CE3  CD2  CG
+ANG CE3  CD2  CE2
+ANG CG   CD2  CE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  NE1
+DIH CD2  CG   CD1  NE1
+DIH CG   CD1  NE1  CE2
+DIH CD1  NE1  CE2  CZ2
+DIH CD1  NE1  CE2  CD2
+DIH NE1  CE2  CZ2  CH2
+DIH CD2  CE2  CZ2  CH2
+DIH CE2  CZ2  CH2  CZ3
+DIH CZ2  CH2  CZ3  CE3
+DIH CH2  CZ3  CE3  CD2
+DIH CZ3  CE3  CD2  CG
+DIH CZ3  CE3  CD2  CE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  CE3
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE3
+DIH CD1  CG   CD2  CE2
+DIH NE1  CE2  CD2  CE3
+DIH NE1  CE2  CD2  CG
+DIH CZ2  CE2  CD2  CE3
+DIH CZ2  CE2  CD2  CG
+END
+
+--------------------------------------------------------------------------
+RES TYR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OH      0
+ATM CG    4    OH      1
+ATM CD1   5    OH      1
+ATM CE1   6    OH      1
+ATM CZ    7    OH      1
+ATM OH    8    OH      0
+ATM CE2   9    OH      1
+ATM CD2  10    OH      1
+ATM C    11    ENDC    0
+ATM O    12    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  CE1 
+BND CE1  CZ  
+BND CZ   OH  
+BND CZ   CE2 
+BND CE2  CD2 
+BND CG   CD2 
+IMP CA   +N   C    O
+IMP CD1  CD2  CG   CB
+IMP CE1  CE2  CZ   OH
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  CE1
+ANG CD1  CE1  CZ
+ANG CE1  CZ   OH
+ANG CE1  CZ   CE2
+ANG OH   CZ   CE2
+ANG CZ   CE2  CD2
+ANG CE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  CE1
+DIH CD2  CG   CD1  CE1
+DIH CG   CD1  CE1  CZ
+DIH CD1  CE1  CZ   OH
+DIH CD1  CE1  CZ   CE2
+DIH CE1  CZ   CE2  CD2
+DIH OH   CZ   CE2  CD2
+DIH CZ   CE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE2
+END
+
+--------------------------------------------------------------------------
+RES ALA
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CB      0
+ATM C     4    ENDC    0
+ATM O     5    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES GLY
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+ATM O     4    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   C
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   C
+DIH N    CA   C    O
+DIH N    CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES THR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG2   4    CG2     0
+ATM OG1   5    OG1     0
+ATM C     6    ENDC    0
+ATM O     7    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG2 
+BND CB   OG1 
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG2
+ANG CA   CB   OG1
+ANG CG2  CB   OG1
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG2
+DIH N    CA   CB   OG1
+DIH C    CA   CB   CG2
+DIH C    CA   CB   OG1
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES SER
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OG      0
+ATM OG    4    OG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   OG  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   OG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   OG
+DIH C    CA   CB   OG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES GLN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NE2     0
+ATM CG    4    NE2     0
+ATM CD    5    NE2     0
+ATM OE1   6    OE1     0
+ATM NE2   7    NE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   NE2 
+IMP CA   +N   C    O
+IMP CG   NE2  CD   OE1
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   NE2
+ANG OE1  CD   NE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   NE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES ASN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    ND2     0
+ATM CG    4    ND2     0
+ATM OD1   5    OD1     0
+ATM ND2   6    ND2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   ND2 
+IMP CA   +N   C    O
+IMP CB   ND2  CG   OD1
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   ND2
+ANG OD1  CG   ND2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   ND2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES GLU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OE2     0
+ATM CG    4    OE2     0
+ATM CD    5    OE2     0
+ATM OE1   6    OE1     0
+ATM OE2   7    OE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   OE2 
+IMP CA   +N   C    O
+IMP CG   OE1  CD   OE2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   OE2
+ANG OE1  CD   OE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   OE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES GLH
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OE2     0
+ATM CG    4    OE2     0
+ATM CD    5    OE2     0
+ATM OE1   6    OE1     0
+ATM OE2   7    OE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   OE2 
+IMP CA   +N   C    O
+IMP CG   OE1  CD   OE2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   OE2
+ANG OE1  CD   OE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   OE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES ASP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OD2     0
+ATM CG    4    OD2     0
+ATM OD1   5    OD1     0
+ATM OD2   6    OD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   OD2 
+IMP CA   +N   C    O
+IMP CB   OD1  CG   OD2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   OD2
+ANG OD1  CG   OD2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   OD2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES ASH
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OD2     0
+ATM CG    4    OD2     0
+ATM OD1   5    OD1     0
+ATM OD2   6    OD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   OD2 
+IMP CA   +N   C    O
+IMP CB   OD1  CG   OD2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   OD2
+ANG OD1  CG   OD2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   OD2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES HIS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NE2     0
+ATM CG    4    NE2     1
+ATM ND1   5    CE1     1
+ATM CE1   6    CE1     1
+ATM NE2   7    NE2     1
+ATM CD2   8    NE2     1
+ATM C     9    ENDC    0
+ATM O    10    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   ND1 
+BND ND1  CE1 
+BND CE1  NE2 
+BND NE2  CD2 
+BND CG   CD2 
+IMP CA   +N   C    O
+IMP ND1  CD2  CG   CB
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   ND1
+ANG CB   CG   CD2
+ANG ND1  CG   CD2
+ANG CG   ND1  CE1
+ANG ND1  CE1  NE2
+ANG CE1  NE2  CD2
+ANG NE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   ND1
+DIH CA   CB   CG   CD2
+DIH CB   CG   ND1  CE1
+DIH CD2  CG   ND1  CE1
+DIH CG   ND1  CE1  NE2
+DIH ND1  CE1  NE2  CD2
+DIH CE1  NE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  NE2
+DIH ND1  CG   CD2  NE2
+END
+
+--------------------------------------------------------------------------
+RES ARG
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NH2     0
+ATM CG    4    NH2     0
+ATM CD    5    NH2     0
+ATM NE    6    NH2     0
+ATM CZ    7    NH2     0
+ATM NH1   8    NH1     0
+ATM NH2   9    NH2     0
+ATM C    10    ENDC    0
+ATM O    11    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   NE  
+BND NE   CZ  
+BND CZ   NH1 
+BND CZ   NH2 
+IMP CA   +N   C    O
+IMP NE   NH1  CZ   NH2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   NE
+ANG CD   NE   CZ
+ANG NE   CZ   NH1
+ANG NE   CZ   NH2
+ANG NH1  CZ   NH2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   NE
+DIH CG   CD   NE   CZ
+DIH CD   NE   CZ   NH1
+DIH CD   NE   CZ   NH2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES LYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NZ      0
+ATM CG    4    NZ      0
+ATM CD    5    NZ      0
+ATM CE    6    NZ      0
+ATM NZ    7    NZ      0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   CE  
+BND CE   NZ  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   CE
+ANG CD   CE   NZ
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   CE
+DIH CG   CD   CE   NZ
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES LYN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NZ      0
+ATM CG    4    NZ      0
+ATM CD    5    NZ      0
+ATM CE    6    NZ      0
+ATM NZ    7    NZ      0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   CE  
+BND CE   NZ  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   CE
+ANG CD   CE   NZ
+ANG CA   C    +N
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   CE
+DIH CG   CD   CE   NZ
+DIH N    CA   C    +N
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES PRO
+
+ATM N     1    ENDC    1
+ATM CD    2    CB      1
+ATM CG    3    CB      1
+ATM CB    4    CB      1
+ATM CA    5    ENDC    1
+ATM C     6    ENDC    0
+ATM O     7    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND N    CD  
+BND CD   CG  
+BND CG   CB  
+BND CB   CA  
+IMP CA   +N   C    O
+IMP -C   CD   N    CA
+ANG -C   N    CD
+ANG -C   N    CA
+ANG CD   N    CA
+ANG N    CD   CG
+ANG CD   CG   CB
+ANG CG   CB   CA
+ANG N    CA   C
+ANG N    CA   CB
+ANG C    CA   CB
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH -CA  -C   N    CD
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CD
+DIH -O   -C   N    CA
+DIH -C   N    CD   CG
+DIH CA   N    CD   CG
+DIH N    CD   CG   CB
+DIH CD   CG   CB   CA
+DIH -C   N    CA   C
+DIH -C   N    CA   CB
+DIH CD   N    CA   C
+DIH CD   N    CA   CB
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CG   CB   CA   N
+DIH CG   CB   CA   C
+END
+
+--------------------------------------------------------------------------
+RES NME
+
+ATM N     1    ENDC    0
+ATM CH3   2    ENDC    0
+
+BND N    CH3 
+ANG -C   N    CH3
+DIH -CA  -C   N    CH3
+DIH -O   -C   N    CH3
+END
+
+
+--------------------------------------------------------------------------
+RES NHE
+
+ATM N     1    ENDC    0
+
+END
+
+--------------------------------------------------------------------------
+RES NCYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NMET
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CE      0
+ATM CG    4    CE      0
+ATM SD    5    CE      0
+ATM CE    6    CE      0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   SD  
+BND SD   CE  
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   SD
+ANG CG   SD   CE
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   SD
+DIH CB   CG   SD   CE
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NPHE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CZ      0
+ATM CG    4    CZ      1
+ATM CD1   5    CZ      1
+ATM CE1   6    CZ      1
+ATM CZ    7    CZ      1
+ATM CE2   8    CZ      1
+ATM CD2   9    CZ      1
+ATM C    10    ENDC    0
+ATM O    11    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  CE1 
+BND CE1  CZ  
+BND CZ   CE2 
+BND CE2  CD2 
+BND CG   CD2 
+IMP CA   +N   C    O
+IMP CD1  CD2  CG   CB
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  CE1
+ANG CD1  CE1  CZ
+ANG CE1  CZ   CE2
+ANG CZ   CE2  CD2
+ANG CE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  CE1
+DIH CD2  CG   CD1  CE1
+DIH CG   CD1  CE1  CZ
+DIH CD1  CE1  CZ   CE2
+DIH CE1  CZ   CE2  CD2
+DIH CZ   CE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE2
+END
+
+--------------------------------------------------------------------------
+RES NILE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG2   4    CG2     0
+ATM CG1   5    CD1     0
+ATM CD1   6    CD1     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG2 
+BND CB   CG1 
+BND CG1  CD1 
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG2
+ANG CA   CB   CG1
+ANG CG2  CB   CG1
+ANG CB   CG1  CD1
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG2
+DIH N    CA   CB   CG1
+DIH C    CA   CB   CG2
+DIH C    CA   CB   CG1
+DIH CA   CB   CG1  CD1
+DIH CG2  CB   CG1  CD1
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NLEU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CD2     0
+ATM CG    4    CD2     0
+ATM CD1   5    CD1     0
+ATM CD2   6    CD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CG   CD2 
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NVAL
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG1   4    CG1     0
+ATM CG2   5    CG2     0
+ATM C     6    ENDC    0
+ATM O     7    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG1 
+BND CB   CG2 
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG1
+ANG CA   CB   CG2
+ANG CG1  CB   CG2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG1
+DIH N    CA   CB   CG2
+DIH C    CA   CB   CG1
+DIH C    CA   CB   CG2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NTRP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CH2     0
+ATM CG    4    CH2     1
+ATM CD1   5    NE1     1
+ATM NE1   6    NE1     1
+ATM CE2   7    CH2     1
+ATM CZ2   8    CZ2     1
+ATM CH2   9    CH2     1
+ATM CZ3  10    CZ3     1
+ATM CE3  11    CE3     1
+ATM CD2  12    CH2     1
+ATM C    13    ENDC    0
+ATM O    14    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  NE1 
+BND NE1  CE2 
+BND CE2  CZ2 
+BND CZ2  CH2 
+BND CH2  CZ3 
+BND CZ3  CE3 
+BND CE3  CD2 
+BND CG   CD2 
+BND CE2  CD2 
+IMP CA   +N   C    O
+IMP CD1  CD2  CG   CB
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  NE1
+ANG CD1  NE1  CE2
+ANG NE1  CE2  CZ2
+ANG NE1  CE2  CD2
+ANG CZ2  CE2  CD2
+ANG CE2  CZ2  CH2
+ANG CZ2  CH2  CZ3
+ANG CH2  CZ3  CE3
+ANG CZ3  CE3  CD2
+ANG CE3  CD2  CG
+ANG CE3  CD2  CE2
+ANG CG   CD2  CE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  NE1
+DIH CD2  CG   CD1  NE1
+DIH CG   CD1  NE1  CE2
+DIH CD1  NE1  CE2  CZ2
+DIH CD1  NE1  CE2  CD2
+DIH NE1  CE2  CZ2  CH2
+DIH CD2  CE2  CZ2  CH2
+DIH CE2  CZ2  CH2  CZ3
+DIH CZ2  CH2  CZ3  CE3
+DIH CH2  CZ3  CE3  CD2
+DIH CZ3  CE3  CD2  CG
+DIH CZ3  CE3  CD2  CE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  CE3
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE3
+DIH CD1  CG   CD2  CE2
+DIH NE1  CE2  CD2  CE3
+DIH NE1  CE2  CD2  CG
+DIH CZ2  CE2  CD2  CE3
+DIH CZ2  CE2  CD2  CG
+END
+
+--------------------------------------------------------------------------
+RES NTYR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OH      0
+ATM CG    4    OH      1
+ATM CD1   5    OH      1
+ATM CE1   6    OH      1
+ATM CZ    7    OH      1
+ATM OH    8    OH      0
+ATM CE2   9    OH      1
+ATM CD2  10    OH      1
+ATM C    11    ENDC    0
+ATM O    12    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  CE1 
+BND CE1  CZ  
+BND CZ   OH  
+BND CZ   CE2 
+BND CE2  CD2 
+BND CG   CD2 
+IMP CA   +N   C    O
+IMP CD1  CD2  CG   CB
+IMP CE1  CE2  CZ   OH
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  CE1
+ANG CD1  CE1  CZ
+ANG CE1  CZ   OH
+ANG CE1  CZ   CE2
+ANG OH   CZ   CE2
+ANG CZ   CE2  CD2
+ANG CE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  CE1
+DIH CD2  CG   CD1  CE1
+DIH CG   CD1  CE1  CZ
+DIH CD1  CE1  CZ   OH
+DIH CD1  CE1  CZ   CE2
+DIH CE1  CZ   CE2  CD2
+DIH OH   CZ   CE2  CD2
+DIH CZ   CE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE2
+END
+
+--------------------------------------------------------------------------
+RES NALA
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CB      0
+ATM C     4    ENDC    0
+ATM O     5    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NGLY
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+ATM O     4    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+IMP CA   +N   C    O
+ANG N    CA   C
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   C    O
+DIH N    CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NTHR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG2   4    CG2     0
+ATM OG1   5    OG1     0
+ATM C     6    ENDC    0
+ATM O     7    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG2 
+BND CB   OG1 
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG2
+ANG CA   CB   OG1
+ANG CG2  CB   OG1
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG2
+DIH N    CA   CB   OG1
+DIH C    CA   CB   CG2
+DIH C    CA   CB   OG1
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NSER
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OG      0
+ATM OG    4    OG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   OG  
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   OG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   OG
+DIH C    CA   CB   OG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NGLN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NE2     0
+ATM CG    4    NE2     0
+ATM CD    5    NE2     0
+ATM OE1   6    OE1     0
+ATM NE2   7    NE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   NE2 
+IMP CA   +N   C    O
+IMP CG   NE2  CD   OE1
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   NE2
+ANG OE1  CD   NE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   NE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NASN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    ND2     0
+ATM CG    4    ND2     0
+ATM OD1   5    OD1     0
+ATM ND2   6    ND2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   ND2 
+IMP CA   +N   C    O
+IMP CB   ND2  CG   OD1
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   ND2
+ANG OD1  CG   ND2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   ND2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NGLU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OE2     0
+ATM CG    4    OE2     0
+ATM CD    5    OE2     0
+ATM OE1   6    OE1     0
+ATM OE2   7    OE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   OE2 
+IMP CA   +N   C    O
+IMP CG   OE1  CD   OE2
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   OE2
+ANG OE1  CD   OE2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   OE2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NASP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OD2     0
+ATM CG    4    OD2     0
+ATM OD1   5    OD1     0
+ATM OD2   6    OD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   OD2 
+IMP CA   +N   C    O
+IMP CB   OD1  CG   OD2
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   OD2
+ANG OD1  CG   OD2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   OD2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NHIS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NE2     0
+ATM CG    4    NE2     1
+ATM ND1   5    CE1     1
+ATM CE1   6    CE1     1
+ATM NE2   7    NE2     1
+ATM CD2   8    NE2     1
+ATM C     9    ENDC    0
+ATM O    10    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   ND1 
+BND ND1  CE1 
+BND CE1  NE2 
+BND NE2  CD2 
+BND CG   CD2 
+IMP CA   +N   C    O
+IMP ND1  CD2  CG   CB
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   ND1
+ANG CB   CG   CD2
+ANG ND1  CG   CD2
+ANG CG   ND1  CE1
+ANG ND1  CE1  NE2
+ANG CE1  NE2  CD2
+ANG NE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   ND1
+DIH CA   CB   CG   CD2
+DIH CB   CG   ND1  CE1
+DIH CD2  CG   ND1  CE1
+DIH CG   ND1  CE1  NE2
+DIH ND1  CE1  NE2  CD2
+DIH CE1  NE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CB   CG   CD2  NE2
+DIH ND1  CG   CD2  NE2
+END
+
+--------------------------------------------------------------------------
+RES NARG
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NH2     0
+ATM CG    4    NH2     0
+ATM CD    5    NH2     0
+ATM NE    6    NH2     0
+ATM CZ    7    NH2     0
+ATM NH1   8    NH1     0
+ATM NH2   9    NH2     0
+ATM C    10    ENDC    0
+ATM O    11    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   NE  
+BND NE   CZ  
+BND CZ   NH1 
+BND CZ   NH2 
+IMP CA   +N   C    O
+IMP NE   NH1  CZ   NH2
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   NE
+ANG CD   NE   CZ
+ANG NE   CZ   NH1
+ANG NE   CZ   NH2
+ANG NH1  CZ   NH2
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   NE
+DIH CG   CD   NE   CZ
+DIH CD   NE   CZ   NH1
+DIH CD   NE   CZ   NH2
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NLYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NZ      0
+ATM CG    4    NZ      0
+ATM CD    5    NZ      0
+ATM CE    6    NZ      0
+ATM NZ    7    NZ      0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   CE  
+BND CE   NZ  
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   CE
+ANG CD   CE   NZ
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   CE
+DIH CG   CD   CE   NZ
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES NPRO
+
+ATM N     1    ENDC    1
+ATM CD    2    CB      1
+ATM CG    3    CB      1
+ATM CB    4    CB      1
+ATM CA    5    ENDC    1
+ATM C     6    ENDC    0
+ATM O     7    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND N    CD  
+BND CD   CG  
+BND CG   CB  
+BND CB   CA  
+IMP CA   +N   C    O
+ANG CD   N    CA
+ANG N    CD   CG
+ANG CD   CG   CB
+ANG CG   CB   CA
+ANG N    CA   C
+ANG N    CA   CB
+ANG C    CA   CB
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH CA   N    CD   CG
+DIH N    CD   CG   CB
+DIH CD   CG   CB   CA
+DIH CD   N    CA   C
+DIH CD   N    CA   CB
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+DIH CG   CB   CA   N
+DIH CG   CB   CA   C
+END
+
+
+--------------------------------------------------------------------------
+RES CCYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+ATM OXT   7    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CMET
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CE      0
+ATM CG    4    CE      0
+ATM SD    5    CE      0
+ATM CE    6    CE      0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+ATM OXT   9    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   SD  
+BND SD   CE  
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   SD
+ANG CG   SD   CE
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   SD
+DIH CB   CG   SD   CE
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CPHE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CZ      0
+ATM CG    4    CZ      1
+ATM CD1   5    CZ      1
+ATM CE1   6    CZ      1
+ATM CZ    7    CZ      1
+ATM CE2   8    CZ      1
+ATM CD2   9    CZ      1
+ATM C    10    ENDC    0
+ATM O    11    O       0
+ATM OXT  12    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  CE1 
+BND CE1  CZ  
+BND CZ   CE2 
+BND CE2  CD2 
+BND C    OXT 
+BND CG   CD2 
+IMP CA   O    C    OXT
+IMP CD1  CD2  CG   CB
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  CE1
+ANG CD1  CE1  CZ
+ANG CE1  CZ   CE2
+ANG CZ   CE2  CD2
+ANG CE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  CE1
+DIH CD2  CG   CD1  CE1
+DIH CG   CD1  CE1  CZ
+DIH CD1  CE1  CZ   CE2
+DIH CE1  CZ   CE2  CD2
+DIH CZ   CE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE2
+END
+
+--------------------------------------------------------------------------
+RES CILE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG2   4    CG2     0
+ATM CG1   5    CD1     0
+ATM CD1   6    CD1     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+ATM OXT   9    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG2 
+BND CB   CG1 
+BND CG1  CD1 
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG2
+ANG CA   CB   CG1
+ANG CG2  CB   CG1
+ANG CB   CG1  CD1
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG2
+DIH N    CA   CB   CG1
+DIH C    CA   CB   CG2
+DIH C    CA   CB   CG1
+DIH CA   CB   CG1  CD1
+DIH CG2  CB   CG1  CD1
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CLEU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CD2     0
+ATM CG    4    CD2     0
+ATM CD1   5    CD1     0
+ATM CD2   6    CD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+ATM OXT   9    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CG   CD2 
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CVAL
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG1   4    CG1     0
+ATM CG2   5    CG2     0
+ATM C     6    ENDC    0
+ATM O     7    O       0
+ATM OXT   8    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG1 
+BND CB   CG2 
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG1
+ANG CA   CB   CG2
+ANG CG1  CB   CG2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG1
+DIH N    CA   CB   CG2
+DIH C    CA   CB   CG1
+DIH C    CA   CB   CG2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CTRP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CH2     0
+ATM CG    4    CH2     1
+ATM CD1   5    NE1     1
+ATM NE1   6    NE1     1
+ATM CE2   7    CH2     1
+ATM CZ2   8    CZ2     1
+ATM CH2   9    CH2     1
+ATM CZ3  10    CZ3     1
+ATM CE3  11    CE3     1
+ATM CD2  12    CH2     1
+ATM C    13    ENDC    0
+ATM O    14    O       0
+ATM OXT  15    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  NE1 
+BND NE1  CE2 
+BND CE2  CZ2 
+BND CZ2  CH2 
+BND CH2  CZ3 
+BND CZ3  CE3 
+BND CE3  CD2 
+BND C    OXT 
+BND CG   CD2 
+BND CE2  CD2 
+IMP CA   O    C    OXT
+IMP CD1  CD2  CG   CB
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  NE1
+ANG CD1  NE1  CE2
+ANG NE1  CE2  CZ2
+ANG NE1  CE2  CD2
+ANG CZ2  CE2  CD2
+ANG CE2  CZ2  CH2
+ANG CZ2  CH2  CZ3
+ANG CH2  CZ3  CE3
+ANG CZ3  CE3  CD2
+ANG CE3  CD2  CG
+ANG CE3  CD2  CE2
+ANG CG   CD2  CE2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  NE1
+DIH CD2  CG   CD1  NE1
+DIH CG   CD1  NE1  CE2
+DIH CD1  NE1  CE2  CZ2
+DIH CD1  NE1  CE2  CD2
+DIH NE1  CE2  CZ2  CH2
+DIH CD2  CE2  CZ2  CH2
+DIH CE2  CZ2  CH2  CZ3
+DIH CZ2  CH2  CZ3  CE3
+DIH CH2  CZ3  CE3  CD2
+DIH CZ3  CE3  CD2  CG
+DIH CZ3  CE3  CD2  CE2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+DIH CB   CG   CD2  CE3
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE3
+DIH CD1  CG   CD2  CE2
+DIH NE1  CE2  CD2  CE3
+DIH NE1  CE2  CD2  CG
+DIH CZ2  CE2  CD2  CE3
+DIH CZ2  CE2  CD2  CG
+END
+
+--------------------------------------------------------------------------
+RES CTYR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OH      0
+ATM CG    4    OH      1
+ATM CD1   5    OH      1
+ATM CE1   6    OH      1
+ATM CZ    7    OH      1
+ATM OH    8    OH      0
+ATM CE2   9    OH      1
+ATM CD2  10    OH      1
+ATM C    11    ENDC    0
+ATM O    12    O       0
+ATM OXT  13    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD1 
+BND CD1  CE1 
+BND CE1  CZ  
+BND CZ   OH  
+BND CZ   CE2 
+BND CE2  CD2 
+BND C    OXT 
+BND CG   CD2 
+IMP CA   O    C    OXT
+IMP CD1  CD2  CG   CB
+IMP CE1  CE2  CZ   OH
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD1
+ANG CB   CG   CD2
+ANG CD1  CG   CD2
+ANG CG   CD1  CE1
+ANG CD1  CE1  CZ
+ANG CE1  CZ   OH
+ANG CE1  CZ   CE2
+ANG OH   CZ   CE2
+ANG CZ   CE2  CD2
+ANG CE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD1
+DIH CA   CB   CG   CD2
+DIH CB   CG   CD1  CE1
+DIH CD2  CG   CD1  CE1
+DIH CG   CD1  CE1  CZ
+DIH CD1  CE1  CZ   OH
+DIH CD1  CE1  CZ   CE2
+DIH CE1  CZ   CE2  CD2
+DIH OH   CZ   CE2  CD2
+DIH CZ   CE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+DIH CB   CG   CD2  CE2
+DIH CD1  CG   CD2  CE2
+END
+
+--------------------------------------------------------------------------
+RES CALA
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CB      0
+ATM C     4    ENDC    0
+ATM O     5    O       0
+ATM OXT   6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CGLY
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+ATM O     4    O       0
+ATM OXT   5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   C
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   C
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CTHR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    CG2     0
+ATM CG2   4    CG2     0
+ATM OG1   5    OG1     0
+ATM C     6    ENDC    0
+ATM O     7    O       0
+ATM OXT   8    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG2 
+BND CB   OG1 
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG2
+ANG CA   CB   OG1
+ANG CG2  CB   OG1
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG2
+DIH N    CA   CB   OG1
+DIH C    CA   CB   CG2
+DIH C    CA   CB   OG1
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CSER
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OG      0
+ATM OG    4    OG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+ATM OXT   7    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   OG  
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   OG
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   OG
+DIH C    CA   CB   OG
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CGLN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NE2     0
+ATM CG    4    NE2     0
+ATM CD    5    NE2     0
+ATM OE1   6    OE1     0
+ATM NE2   7    NE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+ATM OXT  10    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   NE2 
+BND C    OXT 
+IMP CA   O    C    OXT
+IMP CG   NE2  CD   OE1
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   NE2
+ANG OE1  CD   NE2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   NE2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CASN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    ND2     0
+ATM CG    4    ND2     0
+ATM OD1   5    OD1     0
+ATM ND2   6    ND2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+ATM OXT   9    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   ND2 
+BND C    OXT 
+IMP CA   O    C    OXT
+IMP CB   ND2  CG   OD1
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   ND2
+ANG OD1  CG   ND2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   ND2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CGLU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OE2     0
+ATM CG    4    OE2     0
+ATM CD    5    OE2     0
+ATM OE1   6    OE1     0
+ATM OE2   7    OE2     0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+ATM OXT  10    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   OE1 
+BND CD   OE2 
+BND C    OXT 
+IMP CA   O    C    OXT
+IMP CG   OE1  CD   OE2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   OE1
+ANG CG   CD   OE2
+ANG OE1  CD   OE2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   OE1
+DIH CB   CG   CD   OE2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CASP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    OD2     0
+ATM CG    4    OD2     0
+ATM OD1   5    OD1     0
+ATM OD2   6    OD2     0
+ATM C     7    ENDC    0
+ATM O     8    O       0
+ATM OXT   9    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   OD1 
+BND CG   OD2 
+BND C    OXT 
+IMP CA   O    C    OXT
+IMP CB   OD1  CG   OD2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   OD1
+ANG CB   CG   OD2
+ANG OD1  CG   OD2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   OD1
+DIH CA   CB   CG   OD2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CHIS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NE2     0
+ATM CG    4    NE2     1
+ATM ND1   5    CE1     1
+ATM CE1   6    CE1     1
+ATM NE2   7    NE2     1
+ATM CD2   8    NE2     1
+ATM C     9    ENDC    0
+ATM O    10    O       0
+ATM OXT  11    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   ND1 
+BND ND1  CE1 
+BND CE1  NE2 
+BND NE2  CD2 
+BND C    OXT 
+BND CG   CD2 
+IMP CA   O    C    OXT
+IMP ND1  CD2  CG   CB
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   ND1
+ANG CB   CG   CD2
+ANG ND1  CG   CD2
+ANG CG   ND1  CE1
+ANG ND1  CE1  NE2
+ANG CE1  NE2  CD2
+ANG NE2  CD2  CG
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   ND1
+DIH CA   CB   CG   CD2
+DIH CB   CG   ND1  CE1
+DIH CD2  CG   ND1  CE1
+DIH CG   ND1  CE1  NE2
+DIH ND1  CE1  NE2  CD2
+DIH CE1  NE2  CD2  CG
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+DIH CB   CG   CD2  NE2
+DIH ND1  CG   CD2  NE2
+END
+
+--------------------------------------------------------------------------
+RES CARG
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NH2     0
+ATM CG    4    NH2     0
+ATM CD    5    NH2     0
+ATM NE    6    NH2     0
+ATM CZ    7    NH2     0
+ATM NH1   8    NH1     0
+ATM NH2   9    NH2     0
+ATM C    10    ENDC    0
+ATM O    11    O       0
+ATM OXT  12    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   NE  
+BND NE   CZ  
+BND CZ   NH1 
+BND CZ   NH2 
+BND C    OXT 
+IMP CA   O    C    OXT
+IMP NE   NH1  CZ   NH2
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   NE
+ANG CD   NE   CZ
+ANG NE   CZ   NH1
+ANG NE   CZ   NH2
+ANG NH1  CZ   NH2
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   NE
+DIH CG   CD   NE   CZ
+DIH CD   NE   CZ   NH1
+DIH CD   NE   CZ   NH2
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CLYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    NZ      0
+ATM CG    4    NZ      0
+ATM CD    5    NZ      0
+ATM CE    6    NZ      0
+ATM NZ    7    NZ      0
+ATM C     8    ENDC    0
+ATM O     9    O       0
+ATM OXT  10    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   CG  
+BND CG   CD  
+BND CD   CE  
+BND CE   NZ  
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   CG
+ANG CB   CG   CD
+ANG CG   CD   CE
+ANG CD   CE   NZ
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+DIH CA   CB   CG   CD
+DIH CB   CG   CD   CE
+DIH CG   CD   CE   NZ
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+
+--------------------------------------------------------------------------
+RES CPRO
+
+ATM N     1    ENDC    1
+ATM CD    2    CB      1
+ATM CG    3    CB      1
+ATM CB    4    CB      1
+ATM CA    5    ENDC    1
+ATM C     6    ENDC    0
+ATM O     7    O       0
+ATM OXT   8    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND N    CD  
+BND CD   CG  
+BND CG   CB  
+BND C    OXT 
+BND CA   CB  
+IMP CA   O    C    OXT
+IMP -C   CD   N    CA
+ANG -C   N    CD
+ANG -C   N    CA
+ANG CD   N    CA
+ANG N    CD   CG
+ANG CD   CG   CB
+ANG CG   CB   CA
+ANG N    CA   C
+ANG N    CA   CB
+ANG C    CA   CB
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CD
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CD
+DIH -O   -C   N    CA
+DIH -C   N    CD   CG
+DIH CA   N    CD   CG
+DIH N    CD   CG   CB
+DIH CD   CG   CB   CA
+DIH -C   N    CA   C
+DIH -C   N    CA   CB
+DIH CD   N    CA   C
+DIH CD   N    CA   CB
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+DIH N    CA   CB   CG
+DIH C    CA   CB   CG
+END
+
+--------------------------------------------------------------------------
+RES CYX
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+IMP CA   +N   C    O
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH CB   CA   C    O
+END
+
+--------------------------------------------------------------------------
+RES NCYX
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+
+BND N    CA  
+BND CA   C   
+BND C    +N  
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+IMP CA   +N   C    O
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+ANG CA   C    +N
+ANG O    C    +N
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH N    CA   C    +N
+DIH CB   CA   C    O
+DIH CB   CA   C    +N
+END
+
+--------------------------------------------------------------------------
+RES CCYX
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM CB    3    SG      0
+ATM SG    4    SG      0
+ATM C     5    ENDC    0
+ATM O     6    O       0
+ATM OXT   7    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    O   
+BND CA   CB  
+BND CB   SG  
+BND C    OXT 
+IMP CA   O    C    OXT
+ANG -C   N    CA
+ANG N    CA   CB
+ANG N    CA   C
+ANG CB   CA   C
+ANG CA   CB   SG
+ANG CA   C    O
+ANG CA   C    OXT
+ANG O    C    OXT
+DIH -CA  -C   N    CA
+DIH -O   -C   N    CA
+DIH -C   N    CA   CB
+DIH -C   N    CA   C
+DIH N    CA   CB   SG
+DIH C    CA   CB   SG
+DIH N    CA   C    O
+DIH N    CA   C    OXT
+DIH CB   CA   C    O
+DIH CB   CA   C    OXT
+END
+

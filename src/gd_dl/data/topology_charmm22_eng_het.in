@@ -1,0 +1,15 @@
+RES HOH
+
+ATM O     1    H2      0
+ATM H1    2    H1      0
+ATM H2    3    H2      0
+
+BND O    H1  
+BND O    H2   
+ANG H1   O    H2
+END
+
+RES WAT
+
+ATM O     1    ENDC    0
+END

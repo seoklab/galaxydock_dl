@@ -1,0 +1,15 @@
+ATOM CLASS
+C.3 sp3 carbon
+C.2 sp2 carbon
+C.ar aromatic carbon
+C.cat carbocation
+N.2  nitrogen sp2
+N.am nitrogen amide
+N.pl3  nitrogen trigonal planar
+N.4    nitrogen sp3 positively charged
+O.3    sp3 oxygen
+O.2    sp2 oxygen
+O.co2  oxygen in carboxlyates and phophates
+S.3    sulphur sp3
+M.1  +1 metal
+M.2  other metal

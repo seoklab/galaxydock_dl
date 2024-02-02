@@ -1,0 +1,117 @@
+# CG is the C atom connected to CD in case of ILE
+# chi1-120 : C-CA-CB-CG
+
+ARG
+N   CA  CB  CG
+CA  CB  CG  CD
+CB  CG  CD  NE
+CG  CD  NE  CZ
+DONE
+
+LYS
+N   CA  CB  CG
+CA  CB  CG  CD
+CB  CG  CD  CE
+CG  CD  CE  NZ
+DONE
+
+MET
+N   CA  CB  CG
+CA  CB  CG  SD
+CB  CG  SD  CE
+DONE
+
+GLN
+N   CA  CB  CG
+CA  CB  CG  CD
+CB  CG  CD  OE1
+DONE
+
+GLU
+N   CA  CB  CG
+CA  CB  CG  CD
+CB  CG  CD  OE1
+DONE
+
+ILE
+N   CA  CB  CG1
+CA  CB  CG1 CD1
+DONE
+     
+ASN
+N   CA  CB  CG
+CA  CB  CG  OD1
+DONE
+
+# chi1-120 : C-CA-CB-CG
+# chi2+120 : CA-CB-CG-CD2
+
+LEU
+N   CA  CB  CG
+CA  CB  CG  CD1
+DONE
+
+# chi1-120 : C-CA-CB-CG
+# chi2+180 : CA CB-CG-XD2
+# chi3 and chi4 are zero because atoms lie on the plane
+
+PHE
+N   CA  CB  CG
+CA  CB  CG  CD1
+DONE
+
+TYR
+N   CA  CB  CG
+CA  CB  CG  CD1     
+DONE
+
+HIS
+N   CA  CB  CG
+CA  CB  CG  ND1
+DONE
+     
+TRP
+N   CA  CB  CG
+CA  CB  CG  CD1
+DONE
+
+# only chi1 exists
+
+VAL
+N   CA  CB  CG1
+DONE
+
+ASP
+N   CA  CB  CG
+CA  CB  CG  OD1
+DONE
+
+CYS
+N   CA  CB  SG
+DONE
+
+SER
+N   CA  CB  OG
+DONE
+
+# chi1 and chi2 are strictly restricted
+# PRO     N-CA-CB-CG      CA-CB-CG-CD
+# modified to use with the EEF1 topology file
+
+#PRO
+#-CA -C  N   CD
+#-C  N   CD  CG
+#N   CD  CG  CB
+#DONE
+
+PRO
+N   CA  CB  CG
+CA  CB  CG  CD
+DONE
+
+# chi1-120 : N-CA-CB-CG2
+THR
+N   CA  CB  OG1
+DONE
+
+END

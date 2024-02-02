@@ -1,0 +1,335 @@
+! Tripos Mol2 Atom Type <--> CHARMm22 Force Field Atom Type
+! This is an approximate mapping because there are many possible mappings.
+! I (Lim Heo) tested 22 mol2 file conversion into CHARMm str file by using CGenFF,
+! and I selected one mapping among most abundant mappings.
+!
+!C.3         CG321
+!C.2         CG2O1
+!C.1         CG1N1
+!C.ar        CG2R61
+!C.cat       CG2N2
+!N.3         NG301
+!N.2         NG2R50
+!N.1         NG1T1
+!N.ar        NG2R62
+!N.am        NG2S1
+!N.pl3       NG2R51
+!N.4         NG3P3
+!O.3         OG311
+!O.2         OG2D1
+!O.co2       OG2P1
+!S.3         SG311
+!S.2         SG2D1
+!S.O         SG3O3
+!S.O2        SG3O2
+!P.3         PG1
+!F           FGR1
+!Cl          CLGR1
+!Br          BRGR1
+!I           IGR1
+!H           HGP1
+!
+ATOM CLASS
+LC.3    12.011     0  ! C.3    aliphatic C for CH2
+LC.2    12.011     0  ! C.2    carbonyl C: amides
+LC.1    12.011     0  ! C.1    C for cyano group
+LC.ar   12.011     0  ! C.ar   6-mem aromatic C
+LC.cat  12.011     0  ! C.cat  conjugated C in amidinium cation
+LN.3    14.007     0  ! N.3    neutral trimethylamine nitrogen
+LN.2    14.007     0  ! N.2    double bound neutral 5-mem planar ring, purine N7
+LN.1    14.007     0  ! N.1    N for cyano group
+LN.ar   14.007     0  ! N.ar   double bound 6-mem planar ring with heteroatoms in o or m, pyrd, pyrm
+LN.am   14.007     0  ! N.am   peptide nitrogen (CO=NHR)
+LN.pl3  14.007     0  ! N.pl3  single bound neutral 5-mem planar (all atom types sp2) ring, his, trp pyrrole (fused)
+LN.4    14.007     0  ! N.4    primary NH3+, phosphatidylethanolamine
+LO.3    15.999     0  ! O.3    hydroxyl oxygen
+LO.2    15.999     0  ! O.2    carbonyl O: amides, esters, [neutral] carboxylic acids, aldehydes, uera
+LO.co2  15.999     0  ! O.co2  =O in phosphate or sulfate
+LS.3    32.060     0  ! S.3    sulphur, SH, -S-
+LS.2    32.060     0  ! S.2    thiocarbonyl S
+LS.O    32.060     0  ! S.O    neutral sulfoxide sulfur
+LS.O2   32.060     0  ! S.O2   neutral sulfone/sulfonamide sulfur
+LP.3    30.973     0  ! P.3    phosphate -1
+LF      18.998     0  ! F      aromatic flourine
+LCl     35.453     0  ! Cl     CHLB, chlorobenzene
+LBr     79.904     0  ! Br     BROB, bromobenzene
+LI     126.904     0  ! I      IODB, iodobenzene
+LH       1.008     0  ! H      polar H
+LX      12.011     0  ! Unk    Unknown atom
+LFe     55.847     0  ! Fe     Taken from charmm22 param
+END
+!
+BOND
+LC.3   LC.3    222.50     1.5300 ! PROT alkane update, adm jr., 3/2/92
+LC.2   LC.3    250.00     1.4900 ! PROT Ala Dipeptide (5/91)
+LC.ar  LC.3    230.00     1.4900 ! PROT phe,tyr, JES 8/25/89
+LC.3   LN.am   320.00     1.4300 ! PROT NMA Gas & Liquid Phase IR Spectra (LK)
+LC.3   LN.pl3  400.00     1.4580 ! ETRZ, 1-Ethyl-1,2,3-trizaole, from CG331 NG2R51, kevo
+LC.3   LO.3    428.00     1.4200 ! PROT methanol vib fit EMB 11/21/89
+LC.3   LS.3    198.00     1.8180 ! PROT fitted to C-S s   9/26/92 (FL)
+LC.3   LS.O    185.00     1.8100 ! MESO, methylethylsulfoxide, kevo
+LC.3   LS.O2   185.00     1.7900 ! EESM, N-ethylethanesulfonamide; MESN, methyl ethyl sulfone; xxwy & xhe
+LC.3   LP.3    270.00     1.8900 ! BDFP, Benzylphosphonate, Sasha \ re-optimize?
+LC.2   LC.ar   300.00     1.4750 ! 3NAP, nicotamide. kevo: 1.45 -> 1.475
+LC.2   LN.am   370.00     1.3450 ! PROT Alanine Dipeptide ab initio calc's (LK)
+LC.2   LO.2    620.00     1.2300 ! PROT Peptide geometry, condensed phase (LK)
+LC.1   LC.ar   345.00     1.4350 ! 3CYP, 3-Cyanopyridine (PYRIDINE pyr-CN) (MP2 by kevo)
+LC.1   LN.1   1053.00     1.1800 ! ACN, acetonitrile; 3CYP, 3-Cyanopyridine (PYRIDINE pyr-CN) (MP2 by kevo)
+LC.ar  LC.ar   305.00     1.3750 ! PROT benzene, JES 8/25/89
+LC.cat LC.ar   300.00     1.4400 ! BAMI, benzamidinium, mp2 geom & molvib, pram
+LC.ar  LN.ar   450.00     1.3050 ! PYRD, pyridazine
+LC.ar  LN.am   305.00     1.4140 ! RETINOL PACP
+LC.ar  LO.3    334.30     1.4110 ! PROT MeOH, EMB 10/10/89,
+LC.ar  LS.3    280.00     1.7500 ! FETZ, phenothiazine, erh based on PY02, 2h-pyran
+LC.ar  LS.O2   190.00     1.7300 ! BSAM, benzenesulfonamide and other sulfonamides, xxwy
+LC.ar  LCl     350.00     1.7400 ! CHLB, chlorobenzene
+LC.ar  LBr     230.00     1.9030 ! BROB, bromobenzene
+LC.ar  LI      190.00     2.1150 ! IODB, iodobenzene
+LN.2   LN.2    340.00     1.2900 ! OXAD, oxadiazole123
+LN.2   LN.pl3  360.00     1.3550 ! PYRZ, pyrazole
+LN.ar  LN.ar   420.00     1.3200 ! PYRD, pyridazine
+LN.am  LH      440.00     0.9970 ! PROT Alanine Dipeptide ab initio calc's (LK)
+LN.pl3 LH      474.00     1.0100 ! NA G, adm jr. 11/97
+LO.3   LP.3    237.00     1.6100 ! MP_1 reorganization, kevo
+LO.3   LH      545.00     0.9600 ! PROT EMB 11/21/89 methanol vib fit; og tested on MeOH EtOH,...
+LO.co2 LS.O    540.00     1.5300 ! DMSO, dimethylsulfoxide (ML Strader, et al.JPC2002_A106_1074), sz
+LO.co2 LS.O2   630.00     1.4400 ! DMSN, dimethyl sulfone; MSAM, methanesulfonamide and other sulfonamides; compromise between crystal and mp2; xxwy & xhe
+LO.co2 LP.3    500.00     1.5100 ! MP_1 reorganization, kevo
+LH     X       458.19     1.0078 ! Averaged for LH
+LC.3   X       270.75     1.5506 ! Averaged for LC.3
+LC.2   X       337.45     1.4217 ! Averaged for LC.2
+LC.1   X       599.33     1.3617 ! Averaged for LC.1
+LC.ar  X       311.15     1.4549 ! Averaged for LC.ar
+LC.cat X       351.67     1.4200 ! Averaged for LC.cat
+LN.3   X       323.75     1.4050 ! Averaged for LN.3
+LN.2   X       358.00     1.4001 ! Averaged for LN.2
+LN.1   X      1053.00     1.1800 ! Averaged for LN.1
+LN.ar  X       385.00     1.3303 ! Averaged for LN.ar
+LN.am  X       382.22     1.3544 ! Averaged for LN.am
+LN.pl3 X       343.78     1.3696 ! Averaged for LN.pl3
+LN.4   X       250.75     1.3725 ! Averaged for LN.4
+LO.3   X       346.11     1.4117 ! Averaged for LO.3
+LO.2   X       658.00     1.2260 ! Averaged for LO.2
+LO.co2 X       531.67     1.4880 ! Averaged for LO.co2
+LS.3   X       223.89     1.7233 ! Averaged for LS.3
+LS.2   X       357.67     1.6383 ! Averaged for LS.2
+LS.O   X       321.67     1.7133 ! Averaged for LS.O
+LS.O2  X       275.00     1.6686 ! Averaged for LS.O2
+LP.3   X       282.43     1.7153 ! Averaged for LP.3
+LF     X       400.00     1.3580 ! Averaged for LF
+LCl    X       350.00     1.7400 ! Averaged for LCl
+LBr    X       230.00     1.9030 ! Averaged for LBr
+LI     X       190.00     2.1150 ! Averaged for LI
+LX     X       500.00     1.4000 ! Unknown
+END
+!
+BOND ANGLE
+LS.3   LC.3   LS.3    100.00    117.00 ! THIT, trithiazine
+LC.3   LC.2   LN.am    80.00    116.50 ! PROT NMA Vib Modes (LK)
+LC.ar  LC.2   LN.am    80.00    116.50 ! HDZ2, hydrazone model cmpd 2
+LN.am  LC.2   LO.2     80.00    122.50 ! PROT NMA Vib Modes (LK)
+LC.ar  LC.1   LN.1     40.00    180.00 ! 3CYP, 3-Cyanopyridine (PYRIDINE pyr-CN), yin
+LP.3   LO.3   LH       30.00    115.00   40.00   2.3500 ! NA MP_1, ADM Jr. !Reorganization:MP_1
+LN.am  LC.3   X        59.39    111.80 ! Averaged for CG321-NG2S1
+LN.pl3 LC.3   X        51.72    115.05 ! Averaged for CG321-NG2R51
+LO.3   LC.3   X        73.22    110.17 ! Averaged for CG321-OG311
+LS.O   LC.3   X        45.00    106.00 ! Averaged for CG321-SG3O3
+LS.O2  LC.3   X        45.00    106.00 ! Averaged for CG321-SG3O2
+LP.3   LC.3   X        90.00    110.50 ! Averaged for CG321-PG1
+LO.2   LC.2   X        74.27    121.10 ! Averaged for CG2O1-OG2D1
+LN.1   LC.1   X        30.60    180.00 ! Averaged for CG1N1-NG1T1
+LC.3   LC.ar  X        45.80    121.15 ! Averaged for CG2R61-CG321
+LN.ar  LC.ar  X        23.33    119.67 ! Averaged for CG2R61-NG2R62
+LN.am  LC.ar  X        40.00    120.00 ! Averaged for CG2R61-NG2S1
+LO.3   LC.ar  X        45.20    120.00 ! Averaged for CG2R61-OG311
+LS.3   LC.ar  X        40.00    120.00 ! Averaged for CG2R61-SG311
+LS.O2  LC.ar  X        35.00    119.00 ! Averaged for CG2R61-SG3O2
+LCl    LC.ar  X        60.00    120.00 ! Averaged for CG2R61-CLGR1
+LBr    LC.ar  X        45.00    120.00 ! Averaged for CG2R61-BRGR1
+LI     LC.ar  X        45.00    120.00 ! Averaged for CG2R61-IGR1
+LC.ar  LC.cat X        80.00    118.50 ! Averaged for CG2N2-CG2R61
+LN.pl3 LN.2   X       140.00    102.23 ! Averaged for NG2R50-NG2R51
+LH     LN.am  X        35.12    118.94 ! Averaged for NG2S1-HGP1
+LH     LN.pl3 X        30.00    124.50 ! Averaged for NG2R51-HGP1
+LH     LO.3   X        50.77    109.41 ! Averaged for OG311-HGP1
+X      LC.3   X        55.53    110.35 ! Averaged for LC.3
+X      LC.2   X        63.91    116.76 ! Averaged for LC.2
+X      LC.1   X        30.60    180.00 ! Averaged for LC.1
+X      LC.ar  X        40.95    120.12 ! Averaged for LC.ar
+X      LC.cat X        63.20    119.40 ! Averaged for LC.cat
+X      LN.3   X        53.29    117.96 ! Averaged for LN.3
+X      LN.2   X       118.90    103.74 ! Averaged for LN.2
+X      LN.ar  X        62.31    116.94 ! Averaged for LN.ar
+X      LN.am  X        43.81    119.16 ! Averaged for LN.am
+X      LN.pl3 X        80.12    120.38 ! Averaged for LN.pl3
+X      LN.4   X        32.00    109.50 ! Averaged for LN.4
+X      LO.3   X        50.77    109.41 ! Averaged for LO.3
+X      LS.3   X        54.23     94.75 ! Averaged for LS.3
+X      LS.2   X        54.23     94.75 ! Averaged for LS.2
+X      LS.O   X        70.29    101.64 ! Averaged for LS.O
+X      LS.O2  X        77.68    103.88 ! Averaged for LS.O2
+X      LP.3   X        83.34    104.80 ! Averaged for LP.3
+X      LX     X       100.00    109.47 ! Unknown
+END
+!
+DIHEDRAL ANGLE
+LC.3   LC.3   LC.3   LC.3    1   0.1125    0.00  1.  ! LIPID alkane, 4/04, jbk
+LC.ar  LC.3   LC.3   LC.3    1   0.0400    0.00  1.  ! PROT ethylbenzene
+LC.3   LC.3   LC.3   LN.am   1   0.2000    0.00  1.  ! ALBE, Alpha Lysine Benzyl Ester CDCA Amide, cacha
+LC.3   LC.3   LC.3   LO.3    1   0.1950    0.00  1.  ! PROT alkane update, adm jr., 3/2/92
+LC.3   LC.3   LC.3   LS.3    1   0.1950    0.00  1.  ! THPS, thiopyran
+LC.2   LC.3   LC.3   LC.2    1   0.2000    0.00  1.  ! PMHA, hydrazone-containing model compound: PROT alkane update, adm jr., 3/2/92, sz
+LC.ar  LC.3   LC.3   LN.am   1   0.1900    0.00  1.  ! 2AEPD, 2-ethylamino-pyridine CDCA conjugate, corrected by kevo
+LS.3   LC.3   LC.3   LS.3    1   0.1000    0.00  1.  ! DITH, dithiane
+LN.am  LC.2   LC.3   LC.3    1   0.0000    0.00  1.  ! PROT from NG2S1  CG2O1  CG311  CT2, for lactams, adm jr.
+LO.2   LC.2   LC.3   LC.3    1   0.0500    0.00  1.  ! PROT For side chains of asp,asn,glu,gln, (n=6) from KK(LK)
+LN.am  LC.2   LC.3   LN.am   1   0.6000    0.00  1.  ! PROT ala dipeptide, new C VDW Rmin, adm jr., 3/3/93
+LO.2   LC.2   LC.3   LN.am   1   0.0000    0.00  1.  ! PROT Alanine Dipeptide ab initio calc's (LK)
+LC.ar  LC.ar  LC.3   LC.3    1   0.2300    0.00  1.  ! PROT ethylbenzene ethyl rotation, adm jr. 3/7/92
+LC.ar  LC.ar  LC.3   LC.ar   1   0.2300    0.00  1.  ! PYRIDINE pyr-CH2C6H5, yin
+LC.ar  LC.ar  LC.3   LN.am   1   0.0130    0.00  1.  ! NZAD, N-benzylacetamide, isg
+LC.ar  LC.ar  LC.3   LO.3    1   0.0000    0.00  1.  ! 3CAP, carbinol-pyridine (PYRIDINE pyr-CH2OH), yin
+LC.ar  LC.ar  LC.3   LP.3    1   0.2000    0.00  1.  ! BDFP, Benzylphosphonate \ re-optimize?
+LC.3   LC.3   LN.am  LC.2    1   1.8000    0.00  1.  ! slack parameter picked up by 3CPD ==> re-optimize?
+LC.3   LC.3   LN.am  LH      1   0.0000    0.00  1.  ! PROT from HGP1   NG2S1  CG321  CT3, for lactams, adm jr.
+LC.2   LC.3   LN.am  LC.2    1   0.2000    0.00  1.  ! PROT ala dipeptide, new C VDW Rmin, adm jr., 3/3/93c
+LC.2   LC.3   LN.am  LH      1   0.0000    0.00  1.  ! PROT Alanine Dipeptide ab initio calc's (LK)
+LC.ar  LC.3   LN.am  LC.2    1   0.1480    0.00  1.  ! NZAD, N-benzylacetamide, isg
+LC.ar  LC.3   LN.am  LH      1   0.0000    0.00  1.  ! NZAD, N-benzylacetamide; from CG2O2 CG321 NG2S1 HGP1; isg
+LC.3   LC.3   LO.3   LH      1   0.2400    0.00  1.  ! og ethanol
+LC.ar  LC.3   LO.3   LH      1   0.7400    0.00  1.  ! 3ALP, nicotinaldehyde (PYRIDINE pyr-CH2OH), yin; Kenno: empirically corrected for HGA2 CG321 OG311 HGP1 from Team sugar ==> re-evaluate.
+LC.3   LC.3   LS.3   LC.3    1   0.3700    0.00  1.  ! PROT expt. MeEtS,      3/26/92 (FL)
+LS.3   LC.3   LS.3   LC.3    1   1.3000    0.00  1.  ! TRIT, trithiane
+LC.ar  LC.3   LP.3   LO.3    1   0.5000    0.00  1.  ! BDFP, BDFD, Benzylphosphonate
+LC.ar  LC.3   LP.3   LO.co2  1   0.0500    0.00  1.  ! BDFP, Benzylphosphonate \ re-optimize?
+LN.am  LC.2   LC.ar  LC.ar   1   1.0000    0.00  1.  ! HDZ2, hydrazone model cmpd 2
+LO.2   LC.2   LC.ar  LC.ar   1   1.0000    0.00  1.  ! 3NAP, nicotinamide (PYRIDINE pyr-CONH2), yin
+LC.3   LC.2   LN.am  LC.3    1   2.5000    0.00  1.  ! PROT Gives appropriate NMA cis/trans barrier. (LK)
+LC.3   LC.2   LN.am  LC.ar   1   2.5000    0.00  1.  ! 3APP, Alpha-Benzyl Gamma-3-Amino Pyridine GA CDCA Amide, cacha
+LC.3   LC.2   LN.am  LH      1   2.5000    0.00  1.  ! PROT Gives appropriate NMA cis/trans barrier. (LK)
+LC.ar  LC.2   LN.am  LC.3    1   4.0000    0.00  1.  ! 3CPD, Gamma-3-Amide Pyridine Lysine CDCA Amide; from HDZ2, hydrazone model cmpd 2; cacha
+LC.ar  LC.2   LN.am  LH      1   2.5000    0.00  1.  ! HDZ2, hydrazone model cmpd 2
+LO.2   LC.2   LN.am  LC.3    1   2.5000    0.00  1.  ! PROT Gives appropriate NMA cis/trans barrier. (LK)
+LO.2   LC.2   LN.am  LC.ar   1   2.5000    0.00  1.  ! RETINOL PACP
+LO.2   LC.2   LN.am  LH      1   2.5000    0.00  1.  ! PROT Gives appropriate NMA cis/trans barrier. (LK)
+LC.ar  LC.ar  LC.ar  LC.3    1   3.1000    0.00  1.  ! PROT JES 8/25/89 toluene and ethylbenzene
+LC.2   LC.ar  LC.ar  LC.ar   1   3.1000    0.00  1.  ! 3NAP, nicotinamide Kenno: 1.0 -> 3.1
+LC.1   LC.ar  LC.ar  LC.ar   1   2.0000    0.00  1.  ! 3CYP, 3-Cyanopyridine (PYRIDINE pyr-CN), yin
+LC.ar  LC.ar  LC.ar  LC.ar   1   3.1000    0.00  1.  ! PROT JES 8/25/89
+LC.cat LC.ar  LC.ar  LC.ar   1   3.1000    0.00  1.  ! BAMI, benzamidinium; default parameter; sz
+LC.ar  LC.ar  LC.ar  LN.ar   1   1.2000    0.00  1.  ! PYRD, pyridazine
+LC.ar  LC.ar  LC.ar  LN.am   1   3.1000    0.00  1.  ! RETINOL PACP
+LC.ar  LC.ar  LC.ar  LO.3    1   3.1000    0.00  1.  ! PYRIDINE phenol, yin
+LC.ar  LC.ar  LC.ar  LS.3    1   4.5000    0.00  1.  ! FETZ, phenothiazine, erh based on toluene, adm jr., 3/7/92
+LC.ar  LC.ar  LC.ar  LS.O2   1   3.0000    0.00  1.  ! BSAM, benzenesulfonamide and other sulfonamides, xxwy
+LC.ar  LC.ar  LC.ar  LCl     1   3.0000    0.00  1.  ! CHLB, chlorobenzene
+LC.ar  LC.ar  LC.ar  LBr     1   3.0000    0.00  1.  ! BROB, bromobenzene
+LC.ar  LC.ar  LC.ar  LI      1   2.1000    0.00  1.  ! IODB, iodobenzene
+LN.ar  LC.ar  LC.ar  LN.ar   1   0.5000    0.00  1.  ! TRIB, triazine124
+LN.am  LC.ar  LC.ar  LO.3    1   2.4000    0.00  1.  ! 2AMF, 2-acetamide phenol, cacha Kenno: 4.2 -> 2.4
+LC.ar  LC.ar  LN.ar  LN.ar   1   0.8000    0.00  1.  ! PYRD, pyridazine
+LC.ar  LC.ar  LN.am  LC.2    1   1.2000    0.00  1.  ! RETINOL PACP
+LC.ar  LC.ar  LN.am  LH      1   0.5000    0.00  1.  ! RETINOL PACP
+LC.ar  LC.ar  LO.3   LH      1   0.9900    0.00  1.  ! PROT phenol OH rot bar, 3.37 kcal/mole, adm jr. 3/7/92
+LC.ar  LC.ar  LS.3   LC.ar   1   1.7500    0.00  1.  ! FETZ, phenothiazine fit_dihedral, erh
+LC.ar  LC.ar  LS.O2  LO.co2  1   0.0000    0.00  1.  ! BSAM, benzenesulfonamide and other sulfonamides, xxwy
+LN.2   LN.2   LN.pl3 LC.3    1   2.5000    0.00  1.  ! ETRZ, 1-Ethyl-1,2,3-trizaole, from NG2R50 NG2R50 NG2R51 HGP1, kevo
+LN.2   LN.2   LN.pl3 LH      1   2.5000    0.00  1.  ! TRZ3, triazole123
+LC.ar  LN.ar  LN.ar  LC.ar   1   1.2000    0.00  1.  ! PYRD, pyridazine
+LH     LO.3   LP.3   LC.3    1   1.1000    0.00  1.  ! BDFP, BDFD, Benzylphosphonate
+LH     LO.3   LP.3   LO.co2  1   0.3000    0.00  1.  ! NA MP_1, adm jr. !Reorganization:MP_1
+X      LC.3   LC.3   X       1   0.1865    0.00  1.  ! Averaged for CG321-CG321
+X      LC.3   LC.2   X       1   0.1842    0.00  1.  ! Averaged for CG321-CG2O1
+X      LC.3   LC.ar  X       1   0.1382    0.00  1.  ! Averaged for CG321-CG2R61
+X      LC.3   LN.am  X       1   0.2999    0.00  1.  ! Averaged for CG321-NG2S1
+X      LC.3   LN.pl3 X       1   0.0275    0.00  1.  ! Averaged for CG321-NG2R51
+X      LC.3   LO.3   X       1   0.2417    0.00  1.  ! Averaged for CG321-OG311
+X      LC.3   LS.3   X       1   0.3704    0.00  1.  ! Averaged for CG321-SG311
+X      LC.3   LS.O   X       1   0.2500    0.00  1.  ! Averaged for CG321-SG3O3
+X      LC.3   LS.O2  X       1   0.1850    0.00  1.  ! Averaged for CG321-SG3O2
+X      LC.3   LP.3   X       1   0.1875    0.00  1.  ! Averaged for CG321-PG1
+X      LC.2   LC.3   X       1   0.1842    0.00  1.  ! Averaged for CG2O1-CG321
+X      LC.2   LC.ar  X       1   1.0000    0.00  1.  ! Averaged for CG2O1-CG2R61
+X      LC.2   LN.am  X       1   2.6000    0.00  1.  ! Averaged for CG2O1-NG2S1
+X      LC.ar  LC.3   X       1   0.1382    0.00  1.  ! Averaged for CG2R61-CG321
+X      LC.ar  LC.2   X       1   1.0000    0.00  1.  ! Averaged for CG2R61-CG2O1
+X      LC.ar  LC.ar  X       1   2.6049    0.00  1.  ! Averaged for CG2R61-CG2R61
+X      LC.ar  LC.cat X       1   0.0900    0.00  1.  ! Averaged for CG2R61-CG2N2
+X      LC.ar  LN.ar  X       1   3.0200    0.00  1.  ! Averaged for CG2R61-NG2R62
+X      LC.ar  LN.am  X       1   0.8000    0.00  1.  ! Averaged for CG2R61-NG2S1
+X      LC.ar  LO.3   X       1   0.9900    0.00  1.  ! Averaged for CG2R61-OG311
+X      LC.ar  LS.3   X       1   1.7500    0.00  1.  ! Averaged for CG2R61-SG311
+X      LC.ar  LS.O2  X       1   0.1900    0.00  1.  ! Averaged for CG2R61-SG3O2
+X      LC.cat LC.ar  X       1   0.0900    0.00  1.  ! Averaged for CG2N2-CG2R61
+X      LN.2   LN.2   X       1  14.0000    0.00  1.  ! Averaged for NG2R50-NG2R50
+X      LN.2   LN.pl3 X       1   6.3556    0.00  1.  ! Averaged for NG2R50-NG2R51
+X      LN.ar  LC.ar  X       1   3.0200    0.00  1.  ! Averaged for NG2R62-CG2R61
+X      LN.ar  LN.ar  X       1   0.7333    0.00  1.  ! Averaged for NG2R62-NG2R62
+X      LN.am  LC.3   X       1   0.2999    0.00  1.  ! Averaged for NG2S1-CG321
+X      LN.am  LC.2   X       1   2.6000    0.00  1.  ! Averaged for NG2S1-CG2O1
+X      LN.am  LC.ar  X       1   0.8000    0.00  1.  ! Averaged for NG2S1-CG2R61
+X      LN.pl3 LC.3   X       1   0.0275    0.00  1.  ! Averaged for NG2R51-CG321
+X      LN.pl3 LN.2   X       1   6.3556    0.00  1.  ! Averaged for NG2R51-NG2R50
+X      LO.3   LC.3   X       1   0.2417    0.00  1.  ! Averaged for OG311-CG321
+X      LO.3   LC.ar  X       1   0.9900    0.00  1.  ! Averaged for OG311-CG2R61
+X      LO.3   LP.3   X       1   0.9600    0.00  1.  ! Averaged for OG311-PG1
+X      LS.3   LC.3   X       1   0.3704    0.00  1.  ! Averaged for SG311-CG321
+X      LS.3   LC.ar  X       1   1.7500    0.00  1.  ! Averaged for SG311-CG2R61
+X      LS.O   LC.3   X       1   0.2500    0.00  1.  ! Averaged for SG3O3-CG321
+X      LS.O2  LC.3   X       1   0.1850    0.00  1.  ! Averaged for SG3O2-CG321
+X      LS.O2  LC.ar  X       1   0.1900    0.00  1.  ! Averaged for SG3O2-CG2R61
+X      LP.3   LC.3   X       1   0.1875    0.00  1.  ! Averaged for PG1-CG321
+X      LP.3   LO.3   X       1   0.9600    0.00  1.  ! Averaged for PG1-OG311
+X      LC.3   X      X       1   0.2172    0.00  1.  ! Averaged for LC.3
+X      LC.2   X      X       1   1.0456    0.00  1.  ! Averaged for LC.2
+X      LC.ar  X      X       1   2.2040    0.00  1.  ! Averaged for LC.ar
+X      LC.cat X      X       1   1.8680    0.00  1.  ! Averaged for LC.cat
+X      LN.3   X      X       1   0.1424    0.00  1.  ! Averaged for LN.3
+X      LN.2   X      X       1   7.6636    0.00  1.  ! Averaged for LN.2
+X      LN.ar  X      X       1   3.1590    0.00  1.  ! Averaged for LN.ar
+X      LN.am  X      X       1   1.4989    0.00  1.  ! Averaged for LN.am
+X      LN.pl3 X      X       1   3.2141    0.00  1.  ! Averaged for LN.pl3
+X      LN.4   X      X       1   0.0992    0.00  1.  ! Averaged for LN.4
+X      LO.3   X      X       1   0.6601    0.00  1.  ! Averaged for LO.3
+X      LS.3   X      X       1   0.9016    0.00  1.  ! Averaged for LS.3
+X      LS.2   X      X       1   0.9016    0.00  1.  ! Averaged for LS.2
+X      LS.O   X      X       1   0.2286    0.00  1.  ! Averaged for LS.O
+X      LS.O2  X      X       1   0.2544    0.00  1.  ! Averaged for LS.O2
+X      LP.3   X      X       1   0.3602    0.00  1.  ! Averaged for LP.3
+X      LX     X      X       1   1.0000    0.00  1.  ! Unknown
+END
+!
+IMPROPER TORSION ANGLE
+END
+!
+VDW
+E14FAC 0.4
+V14FAC 1.0
+LC.3     0.0       -0.0560     2.0100   0.0 -0.01 1.9
+LC.2     0.0       -0.1100     2.0000
+LC.1     0.0       -0.1800     1.8700
+LC.ar    0.0       -0.0700     1.9924
+LC.cat   0.0       -0.1100     2.0000
+LN.3     0.0       -0.0350     2.0000
+LN.2     0.0       -0.2000     1.8500
+LN.1     0.0       -0.1800     1.7900
+LN.ar    0.0       -0.0500     2.0600
+LN.am    0.0       -0.2000     1.8500
+LN.pl3   0.0       -0.2000     1.8500
+LN.4     0.0       -0.2000     1.8500
+LO.3     0.0       -0.1921     1.7650
+LO.2     0.0       -0.1200     1.7000
+LO.co2   0.0       -0.1200     1.7000
+LS.3     0.0       -0.4500     2.0000
+LS.2     0.0       -0.5650     2.0500
+LS.O     0.0       -0.3500     2.0000
+LS.O2    0.0       -0.3500     2.0000
+LP.3     0.0       -0.5850     2.1500
+LF       0.0       -0.1200     1.7000
+LCl      0.0       -0.3200     1.9300
+LBr      0.0       -0.4200     2.0700
+LI       0.0       -0.5500     2.1900
+LH       0.0       -0.0460     0.2245
+LX       0.0       -0.0500     2.0000
+LFe      0.0        0.0000     0.6500
+END

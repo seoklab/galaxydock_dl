@@ -1,0 +1,562 @@
+** PARAMETER FILE **
+
+! Parameters extracted from AMBER parameter file
+
+ATOM CLASS
+BR 79.90                             0 bromine                                  
+C  12.01                             sp2 C carbonyl group                     
+CA 12.01                             sp2 C pure aromatic (benzene)            
+CB 12.01                             sp2 aromatic C, 5&6 membered ring junctio
+CC 12.01                             sp2 aromatic C, 5 memb. ring HIS         
+CK 12.01                             sp2 C 5 memb.ring in purines             
+CM 12.01                             sp2 C  pyrimidines in pos. 5 & 6         
+CN 12.01                             sp2 C aromatic 5&6 memb.ring junct.(TRP) 
+CQ 12.01                             sp2 C in 5 mem.ring of purines between 2 
+CR 12.01                             sp2 arom as CQ but in HIS                
+CT 12.01                             sp3 aliphatic C                          
+CV 12.01                             sp2 arom. 5 memb.ring w/1 N and 1 H (HIS)
+CW 12.01                             sp2 arom. 5 memb.ring w/1 N-H and 1 H (HI
+C* 12.01                             sp2 arom. 5 memb.ring w/1 subst. (TRP)   
+C0 40.08                             0 calcium                                  
+F  19.00                             0 fluorine                                 
+H  1.008                             0 H bonded to nitrogen atoms               
+HC 1.008                             0 H aliph. bond. to C without electrwd.grou
+H1 1.008                             0 H aliph. bond. to C with 1 electrwd. grou
+H2 1.008                             0 H aliph. bond. to C with 2 electrwd.group
+H3 1.008                             0 H aliph. bond. to C with 3 eletrwd.groups
+HA 1.008                             0 H arom. bond. to C without elctrwd. group
+H4 1.008                             0 H arom. bond. to C with 1 electrwd. group
+H5 1.008                             0 H arom. bond. to C with 2 electrwd. group
+HO 1.008                             0 hydroxyl group                           
+HS 1.008                             0 hydrogen bonded to sulphur               
+HW 1.008                             0 H in TIP3P water                         
+HP 1.008                             0 H bonded to C next to positively charged 
+I  126.9                             0 iodine                                   
+IM 35.45                             0 assumed to be Cl-                        
+IP 22.99                             0 assumed to be Na+                        
+IB 131.0                             0 'big ion w/ waters' for vacuum (Na+, 6H2O
+MG 24.305                            0 magnesium                                
+N  14.01                             sp2 nitrogen in amide groups             
+NA 14.01                             sp2 N in 5 memb.ring w/H atom (HIS)      
+NB 14.01                             sp2 N in 5 memb.ring w/LP (HIS,ADE,GUA)  
+NC 14.01                             sp2 N in 6 memb.ring w/LP (ADE,GUA)      
+N2 14.01                             sp2 N in amino groups                    
+N3 14.01                             sp3 N for charged amino groups (Lys, etc)
+N* 14.01                             sp2 N                                    
+O  16.00                             sp2 carbonyl group oxygen                    
+OW 16.00                             sp3 oxygen in TIP3P water                    
+OH 16.00                             sp3 oxygen in hydroxyl group                 
+OS 16.00                             sp3 ether and ester oxygen                   
+O2 16.00                             sp2 carboxyl and phosphate group oxygen      
+P  30.97                             sp3 phosphate                                
+S  32.06                             sp3 sulphur in disulfide linkage             
+SH 32.06                             sp3 sulphur in cystine                       
+CU 63.55                             0 copper                                   
+FE 55.00                             0 iron                                     
+Li  6.94                             0 lithium                                  
+K  39.10                             0 potassium                                
+Rb 85.47                             0 rubidium                                 
+Cs 132.91                            0 cesium                                   
+Zn  65.4                             0 Zn2+, from amber03
+END
+
+--------------------------------------------------------------------------
+
+BOND
+OW   HW    553.0    0.957
+HW   HW    553.0    1.513
+C    CA    469.0    1.409
+C    CB    447.0    1.419
+C    CM    410.0    1.444
+C    CT    317.0    1.522
+C    N*    424.0    1.383
+C    NA    418.0    1.388
+C    NC    457.0    1.358
+C    O     570.0    1.229
+C    O2    656.0    1.250
+C    OH    450.0    1.364
+CA   CA    469.0    1.400
+CA   CB    469.0    1.404
+CA   CM    427.0    1.433
+CA   CT    317.0    1.510
+CA   HA    367.0    1.080
+CA   H4    367.0    1.080
+CA   N2    481.0    1.340
+CA   NA    427.0    1.381
+CA   NC    483.0    1.339
+CB   CB    520.0    1.370
+CB   N*    436.0    1.374
+CB   NB    414.0    1.391
+CB   NC    461.0    1.354
+CK   H5    367.0    1.080
+CK   N*    440.0    1.371
+CK   NB    529.0    1.304
+CM   CM    549.0    1.350
+CM   CT    317.0    1.510
+CM   HA    367.0    1.080
+CM   H4    367.0    1.080
+CM   H5    367.0    1.080
+CM   N*    448.0    1.365
+CQ   H5    367.0    1.080
+CQ   NC    502.0    1.324
+CT   CT    310.0    1.526
+CT   HC    340.0    1.090
+CT   H1    340.0    1.090
+CT   H2    340.0    1.090
+CT   H3    340.0    1.090
+CT   HP    340.0    1.090
+CT   N*    337.0    1.475
+CT   N2    337.0    1.463
+CT   OH    320.0    1.410
+CT   OS    320.0    1.410
+H    N2    434.0    1.010
+H    N*    434.0    1.010
+H    NA    434.0    1.010
+HO   OH    553.0    0.960
+HO   OS    553.0    0.960
+O2   P     525.0    1.480
+OH   P     230.0    1.610
+OS   P     230.0    1.610
+C*   HC    367.0    1.080
+C    N     490.0    1.335
+C*   CB    388.0    1.459
+C*   CT    317.0    1.495
+C*   CW    546.0    1.352
+CA   CN    469.0    1.400
+CB   CN    447.0    1.419
+CC   CT    317.0    1.504
+CC   CV    512.0    1.375
+CC   CW    518.0    1.371
+CC   NA    422.0    1.385
+CC   NB    410.0    1.394
+CN   NA    428.0    1.380
+CR   H5    367.0    1.080
+CR   NA    477.0    1.343
+CR   NB    488.0    1.335
+CT   N     337.0    1.449
+CT   N3    367.0    1.471
+CT   S     227.0    1.810
+CT   SH    237.0    1.810
+CV   H4    367.0    1.080
+CV   NB    410.0    1.394
+CW   H4    367.0    1.080
+CW   NA    427.0    1.381
+H    N     434.0    1.010
+H    N3    434.0    1.010
+HS   SH    274.0    1.336
+S    S     166.0    2.038
+CT   F     367.0    1.380
+END
+
+--------------------------------------------------------------------------
+
+BOND ANGLE
+HW   OW   HW     100.0      104.52
+HW   HW   OW       0.0      127.74
+CB   C    NA      70.0      111.30
+CB   C    O       80.0      128.80
+CM   C    NA      70.0      114.10
+CM   C    O       80.0      125.30
+CT   C    O       80.0      120.40
+CT   C    O2      70.0      117.00
+CT   C    OH      70.0      117.00
+N*   C    NA      70.0      115.40
+N*   C    NC      70.0      118.60
+N*   C    O       80.0      120.90
+NA   C    O       80.0      120.60
+NC   C    O       80.0      122.50
+CT   C    N       70.0      116.60
+N    C    O       80.0      122.90
+O    C    O       80.0      126.00
+O2   C    O2      80.0      126.00
+O    C    OH      80.0      126.00
+CA   C    CA      63.0      120.00
+CA   C    OH      70.0      120.00
+C    CA   CA      63.0      120.00
+CA   CA   CA      63.0      120.00
+CA   CA   CB      63.0      120.00
+CA   CA   CT      70.0      120.00
+CA   CA   HA      35.0      120.00
+CA   CA   H4      35.0      120.00
+CB   CA   HA      35.0      120.00
+CB   CA   H4      35.0      120.00
+CB   CA   N2      70.0      123.50
+CB   CA   NC      70.0      117.30
+CM   CA   N2      70.0      120.10
+CM   CA   NC      70.0      121.50
+N2   CA   NA      70.0      116.00
+N2   CA   NC      70.0      119.30
+NA   CA   NC      70.0      123.30
+C    CA   HA      35.0      120.00
+N2   CA   N2      70.0      120.00
+CN   CA   HA      35.0      120.00
+CA   CA   CN      63.0      120.00
+C    CB   CB      63.0      119.20
+C    CB   NB      70.0      130.00
+CA   CB   CB      63.0      117.30
+CA   CB   NB      70.0      132.40
+CB   CB   N*      70.0      106.20
+CB   CB   NB      70.0      110.40
+CB   CB   NC      70.0      127.70
+N*   CB   NC      70.0      126.20
+C*   CB   CA      63.0      134.90
+C*   CB   CN      63.0      108.80
+CA   CB   CN      63.0      116.20
+H5   CK   N*      35.0      123.05
+H5   CK   NB      35.0      123.05
+N*   CK   NB      70.0      113.90
+C    CM   CM      63.0      120.70
+C    CM   CT      70.0      119.70
+C    CM   HA      35.0      119.70
+C    CM   H4      35.0      119.70
+CA   CM   CM      63.0      117.00
+CA   CM   HA      35.0      123.30
+CA   CM   H4      35.0      123.30
+CM   CM   CT      70.0      119.70
+CM   CM   HA      35.0      119.70
+CM   CM   H4      35.0      119.70
+CM   CM   N*      70.0      121.20
+H4   CM   N*      35.0      119.10
+H5   CQ   NC      35.0      115.45
+NC   CQ   NC      70.0      129.10
+CM   CT   HC      50.0      109.50
+CT   CT   CT      40.0      109.50
+CT   CT   HC      50.0      109.50
+CT   CT   H1      50.0      109.50
+CT   CT   H2      50.0      109.50
+CT   CT   HP      50.0      109.50
+CT   CT   N*      50.0      109.50
+CT   CT   OH      50.0      109.50
+CT   CT   OS      50.0      109.50
+HC   CT   HC      35.0      109.50
+H1   CT   H1      35.0      109.50
+HP   CT   HP      35.0      109.50
+H2   CT   N*      50.0      109.50
+H1   CT   N*      50.0      109.50
+H1   CT   OH      50.0      109.50
+H1   CT   OS      50.0      109.50
+H2   CT   OS      50.0      109.50
+N*   CT   OS      50.0      109.50
+H1   CT   N       50.0      109.50
+C    CT   H1      50.0      109.50
+C    CT   HP      50.0      109.50
+H1   CT   S       50.0      109.50
+H1   CT   SH      50.0      109.50
+CT   CT   S       50.0      114.70
+CT   CT   SH      50.0      108.60
+H2   CT   H2      35.0      109.50
+H1   CT   N2      50.0      109.50
+HP   CT   N3      50.0      109.50
+CA   CT   CT      63.0      114.00
+C    CT   HC      50.0      109.50
+C    CT   N       63.0      110.10
+CT   CT   N2      80.0      111.20
+CT   CT   N       80.0      109.70
+C    CT   CT      63.0      111.10
+CA   CT   HC      50.0      109.50
+CT   CT   N3      80.0      111.20
+CC   CT   CT      63.0      113.10
+CC   CT   HC      50.0      109.50
+C    CT   N3      80.0      111.20
+C*   CT   CT      63.0      115.60
+C*   CT   HC      50.0      109.50
+CT   CC   NA      70.0      120.00
+CT   CC   CV      70.0      120.00
+CT   CC   NB      70.0      120.00
+CV   CC   NA      70.0      120.00
+CW   CC   NA      70.0      120.00
+CW   CC   NB      70.0      120.00
+CT   CC   CW      70.0      120.00
+H5   CR   NA      35.0      120.00
+H5   CR   NB      35.0      120.00
+NA   CR   NA      70.0      120.00
+NA   CR   NB      70.0      120.00
+CC   CV   H4      35.0      120.00
+CC   CV   NB      70.0      120.00
+H4   CV   NB      35.0      120.00
+CC   CW   H4      35.0      120.00
+CC   CW   NA      70.0      120.00
+H4   CW   NA      35.0      120.00
+C*   CW   H4      35.0      120.00
+C*   CW   NA      70.0      108.70
+CT   C*   CW      70.0      125.00
+CB   C*   CT      70.0      128.60
+CB   C*   CW      63.0      106.40
+CA   CN   NA      70.0      132.80
+CB   CN   NA      70.0      104.40
+CA   CN   CB      63.0      122.70
+C    N    CT      50.0      121.90
+C    N    H       30.0      120.00
+CT   N    H       30.0      118.04
+CT   N    CT      50.0      118.00
+H    N    H       35.0      120.00
+C    N*   CM      70.0      121.60
+C    N*   CT      70.0      117.60
+C    N*   H       30.0      119.20
+CB   N*   CK      70.0      105.40
+CB   N*   CT      70.0      125.80
+CB   N*   H       30.0      125.80
+CK   N*   CT      70.0      128.80
+CK   N*   H       30.0      128.80
+CM   N*   CT      70.0      121.20
+CM   N*   H       30.0      121.20
+CA   N2   H       35.0      120.00
+H    N2   H       35.0      120.00
+CT   N2   H       35.0      118.40
+CA   N2   CT      50.0      123.20
+CT   N3   H       50.0      109.50
+CT   N3   CT      50.0      109.50
+H    N3   H       35.0      109.50
+C    NA   C       70.0      126.40
+C    NA   CA      70.0      125.20
+C    NA   H       30.0      116.80
+CA   NA   H       30.0      118.00
+CC   NA   CR      70.0      120.00
+CC   NA   H       30.0      120.00
+CR   NA   CW      70.0      120.00
+CR   NA   H       30.0      120.00
+CW   NA   H       30.0      120.00
+CN   NA   CW      70.0      111.60
+CN   NA   H       30.0      123.10
+CB   NB   CK      70.0      103.80
+CC   NB   CR      70.0      117.00
+CR   NB   CV      70.0      117.00
+C    NC   CA      70.0      120.50
+CA   NC   CB      70.0      112.20
+CA   NC   CQ      70.0      118.60
+CB   NC   CQ      70.0      111.00
+C    OH   HO      35.0      113.00
+CT   OH   HO      55.0      108.50
+HO   OH   P       45.0      108.50
+CT   OS   CT      60.0      109.50
+CT   OS   P      100.0      120.50
+P    OS   P      100.0      120.50
+O2   P    OH      45.0      108.23
+O2   P    O2     140.0      119.90
+O2   P    OS     100.0      108.23
+OH   P    OS      45.0      102.60
+OS   P    OS      45.0      102.60
+CT   S    CT      62.0       98.90
+CT   S    S       68.0      103.70
+CT   SH   HS      43.0       96.00
+HS   SH   HS      35.0       92.07
+F    CT   F       77.0      109.10
+F    CT   H1      35.0      109.50
+END
+
+--------------------------------------------------------------------------
+
+DIHEDRAL ANGLE
+X    C    CA   X      4   14.50        180.0             2.
+X    C    CB   X      4   12.00        180.0             2.
+X    C    CM   X      4    8.70        180.0             2.
+X    C    N*   X      4    5.80        180.0             2.
+X    C    NA   X      4    5.40        180.0             2.
+X    C    NC   X      2    8.00        180.0             2.
+X    C    OH   X      2    1.80        180.0             2.
+X    C    CT   X      4    0.00          0.0             2.
+X    CA   CA   X      4   14.50        180.0             2.
+X    CA   CB   X      4   14.00        180.0             2.
+X    CA   CM   X      4   10.20        180.0             2.
+X    CA   CT   X      6    0.00          0.0             2.
+X    CA   N2   X      4    9.60        180.0             2.
+X    CA   NA   X      4    6.00        180.0             2.
+X    CA   NC   X      2    9.60        180.0             2.
+X    CB   CB   X      4   21.80        180.0             2.
+X    CB   N*   X      4    6.60        180.0             2.
+X    CB   NB   X      2    5.10        180.0             2.
+X    CB   NC   X      2    8.30        180.0             2.
+X    CK   N*   X      4    6.80        180.0             2.
+X    CK   NB   X      2   20.00        180.0             2.
+X    CM   CM   X      4   26.60        180.0             2.
+X    CM   CT   X      6    0.00          0.0             3.
+X    CM   N*   X      4    7.40        180.0             2.
+X    CQ   NC   X      2   13.60        180.0             2.
+X    CT   CT   X      9    1.40          0.0             3.
+X    CT   N    X      6    0.00          0.0             2.
+X    CT   N*   X      6    0.00          0.0             2.
+X    CT   N2   X      6    0.00          0.0             3.
+X    CT   OH   X      3    0.50          0.0             3.
+X    CT   OS   X      3    1.15          0.0             3.
+X    OH   P    X      3    0.75          0.0             3.
+X    OS   P    X      3    0.75          0.0             3.
+X    C    N    X      4   10.00        180.0             2.
+X    CT   N3   X      9    1.40          0.0             3.
+X    CT   S    X      3    1.00          0.0             3.
+X    CT   SH   X      3    0.75          0.0             3.
+X    C*   CB   X      4    6.70        180.0             2.
+X    C*   CT   X      6    0.00          0.0             2.
+X    C*   CW   X      4   26.10        180.0             2.
+X    CA   CN   X      4   14.50        180.0             2.
+X    CB   CN   X      4   12.00        180.0             2.
+X    CC   CT   X      6    0.00          0.0             2.
+X    CC   CV   X      4   20.60        180.0             2.
+X    CC   CW   X      4   21.50        180.0             2.
+X    CC   NA   X      4    5.60        180.0             2.
+X    CC   NB   X      2    4.80        180.0             2.
+X    CN   NA   X      4    6.10        180.0             2.
+X    CR   NA   X      4    9.30        180.0             2.
+X    CR   NB   X      2   10.00        180.0             2.
+X    CV   NB   X      2    4.80        180.0             2.
+X    CW   NA   X      4    6.00        180.0             2.
+CT   CT   OS   CT     1    0.38         30.0            -3.
+CT   CT   OS   CT     1    0.10        180.0             2.
+C    N    CT   C      1    0.30        180.0            -2.
+C    N    CT   C      1    0.85          0.0             1.
+N    CT   C    N      1    0.30        180.0            -2.
+N    CT   C    N      1    0.85          0.0             1.
+CT   CT   N    C      1    0.50        180.0            -4.
+CT   CT   N    C      1    0.15        180.0            -3.
+CT   CT   N    C      1    0.53          0.0             1.
+CT   CT   C    N      1    0.10          0.0            -4.
+CT   CT   C    N      1    0.07          0.0             2.
+H    N    C    O      1    2.50        180.0            -2.
+H    N    C    O      1    2.00          0.0             1.
+CT   S    S    CT     1    3.50          0.0            -2.
+CT   S    S    CT     1    0.60          0.0             3.
+OS   CT   CT   OS     1    0.14         40.0            -3.
+OS   CT   CT   OS     1    1.00          0.0             2.
+OS   CT   CT   OH     1    0.14         40.0            -3.
+OS   CT   CT   OH     1    1.00          0.0             2.
+OH   CT   CT   OH     1    0.14         40.0            -3.
+OH   CT   CT   OH     1    1.00          0.0             2.
+OH   P    OS   CT     1    0.25          0.0            -3.
+OH   P    OS   CT     1    1.20          0.0             2.
+OS   P    OS   CT     1    0.25          0.0            -3.
+OS   P    OS   CT     1    1.20          0.0             2.
+OS   CT   N*   CK     1    0.50        180.0            -2.
+OS   CT   N*   CK     1    2.50          0.0             1.
+OS   CT   N*   CM     1    0.50        180.0            -2.
+OS   CT   N*   CM     1    2.50          0.0             1.
+END
+
+--------------------------------------------------------------------------
+
+IMPROPER TORSION ANGLE
+X    X    C    O           10.5          180.          2.
+X    O2   C    O2          10.5          180.          2.
+X    X    N    H            1.0          180.          2.
+X    X    N2   H            1.0          180.          2.
+X    X    NA   H            1.0          180.          2.
+X    N2   CA   N2          10.5          180.          2.
+X    CT   N    CT           1.0          180.          2.
+X    X    CA   HA           1.1          180.          2.
+X    X    CW   H4           1.1          180.          2.
+X    X    CR   H5           1.1          180.          2.
+X    X    CV   H4           1.1          180.          2.
+X    X    CQ   H5           1.1          180.          2.
+X    X    CK   H5           1.1          180.          2.
+X    X    CM   H4           1.1          180.          2.
+X    X    CM   HA           1.1          180.          2.
+X    X    CA   H4           1.1          180.          2.
+X    X    CA   H5           1.1          180.          2.
+CK   CB   N*   CT           1.0          180.          2.
+CM   C    N*   CT           1.0          180.          2.
+CM   C    CM   CT           1.1          180.          2.
+CT   O    C    OH          10.5          180.          2.
+NA   CV   CC   CT           1.1          180.          2.
+NB   CW   CC   CT           1.1          180.          2.
+NA   CW   CC   CT           1.1          180.          2.
+CW   CB   C*   CT           1.1          180.          2.
+CA   CA   CA   CT           1.1          180.          2.
+C    CM   CM   CT           1.1          180.          2.
+NC   CM   CA   N2           1.1          180.          2.
+CB   NC   CA   N2           1.1          180.          2.
+NA   NC   CA   N2           1.1          180.          2.
+CA   CA   C    OH           1.1          180.          2.
+END
+
+--------------------------------------------------------------------------
+
+VDW
+!      Emin       Rmin
+!      (kcal/mol) (A)
+E14FAC 1.2
+V14FAC 2.0
+H     -0.0157   0.6000
+HO    -0.0000   0.0000
+HS    -0.0157   0.6000
+HC    -0.0157   1.4870
+H1    -0.0157   1.3870
+H2    -0.0157   1.2870
+H3    -0.0157   1.1870
+HP    -0.0157   1.1000
+HA    -0.0150   1.4590
+H4    -0.0150   1.4090
+H5    -0.0150   1.3590
+HW    -0.0000   0.0000
+O     -0.2100   1.6612
+O2    -0.2100   1.6612
+OW    -0.1520   1.7683
+OH    -0.2104   1.7210
+OS    -0.1700   1.6837
+CT    -0.1094   1.9080
+CA    -0.0860   1.9080
+CM    -0.0860   1.9080
+C     -0.0860   1.9080
+C*    -0.0860   1.9080
+CW    -0.0860   1.9080
+CB    -0.0860   1.9080
+CC    -0.0860   1.9080
+CK    -0.0860   1.9080
+CM    -0.0860   1.9080
+CN    -0.0860   1.9080
+CQ    -0.0860   1.9080
+CR    -0.0860   1.9080
+CV    -0.0860   1.9080
+N     -0.1700   1.8240
+NA    -0.1700   1.8240
+NB    -0.1700   1.8240
+NC    -0.1700   1.8240
+N2    -0.1700   1.8240
+N3    -0.1700   1.8240
+N*    -0.1700   1.8240
+S     -0.2500   2.0000
+SH    -0.2500   2.0000
+P     -0.2000   2.1000
+IM    -0.1000   2.4700
+Li    -0.0183   1.1370
+IP    -0.0028   1.8680
+K     -0.0003   2.6580
+Rb    -0.0002   2.9560
+Cs    -0.0001   3.3950
+I     -0.4000   2.3500
+F     -0.0610   1.7500
+IB    -0.1000   5.0000
+END
+
+--------------------------------------------------------------------------
+
+GB Case
+lambda   1.0d0
+delta    0.0d0
+rho0     0.09d0
+alpha1   0.8d0
+beta1    0.0d0
+gamma1   2.90912499999d0
+alpha2   1.0d0
+beta2    0.8d0
+gamma2   4.851d0
+!!     Sj       rhoi   HN 1.2 => 1.3
+HO    0.85     0.80
+HC    0.85     1.30
+HN    0.85     1.30
+HS    0.85     0.80
+C     0.72     1.70
+N     0.79     1.55
+O     0.85     1.50
+S     0.96     1.80
+END
+
+--------------------------------------------------------------------------
+
+SASA
+!
+C     0.005
+N     0.005
+O     0.005
+S     0.005
+END
+--------------------------------------------------------------------------
+
+END

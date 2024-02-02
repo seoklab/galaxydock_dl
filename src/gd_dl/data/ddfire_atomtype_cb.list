@@ -1,0 +1,99 @@
+ATOM   ALA  N    0   1   0
+ATOM   ALA  CA   0   0   1
+ATOM   ALA  C    0   0   1
+ATOM   ALA  O    0   1   1
+ATOM   ALA  CB   0   0  -1 CA
+ATOM   CYS  N    0   1   0
+ATOM   CYS  CA   0   0   1
+ATOM   CYS  C    0   0   1
+ATOM   CYS  O    0   1   1
+ATOM   CYS  CB   0   0  -1 CA
+ATOM   ASP  N    0   1   0
+ATOM   ASP  CA   0   0   1
+ATOM   ASP  C    0   0   1
+ATOM   ASP  O    0   1   1
+ATOM   ASP  CB   0   0  -1 CA
+ATOM   GLU  N    0   1   0
+ATOM   GLU  CA   0   0   1
+ATOM   GLU  C    0   0   1
+ATOM   GLU  O    0   1   1
+ATOM   GLU  CB   0   0  -1 CA
+ATOM   PHE  N    0   1   0
+ATOM   PHE  CA   0   0   1
+ATOM   PHE  C    0   0   1
+ATOM   PHE  O    0   1   1
+ATOM   PHE  CB   0   0  -1 CA
+ATOM   GLY  N    0   1   0
+ATOM   GLY  CA   0   0   1
+ATOM   GLY  C    0   0   1
+ATOM   GLY  O    0   1   1
+ATOM   HIS  N    0   1   0
+ATOM   HIS  CA   0   0   1
+ATOM   HIS  C    0   0   1
+ATOM   HIS  O    0   1   1
+ATOM   HIS  CB   0   0  -1 CA
+ATOM   ILE  N    0   1   0
+ATOM   ILE  CA   0   0   1
+ATOM   ILE  C    0   0   1
+ATOM   ILE  O    0   1   1
+ATOM   ILE  CB   0   0  -1 CA
+ATOM   LYS  N    0   1   0
+ATOM   LYS  CA   0   0   1
+ATOM   LYS  C    0   0   1
+ATOM   LYS  O    0   1   1
+ATOM   LYS  CB   0   0  -1 CA
+ATOM   LEU  N    0   1   0
+ATOM   LEU  CA   0   0   1
+ATOM   LEU  C    0   0   1
+ATOM   LEU  O    0   1   1
+ATOM   LEU  CB   0   0  -1 CA
+ATOM   MET  N    0   1   0
+ATOM   MET  CA   0   0   1
+ATOM   MET  C    0   0   1
+ATOM   MET  O    0   1   1
+ATOM   MET  CB   0   0  -1 CA
+ATOM   ASN  N    0   1   0
+ATOM   ASN  CA   0   0   1
+ATOM   ASN  C    0   0   1
+ATOM   ASN  O    0   1   1
+ATOM   ASN  CB   0   0  -1 CA
+ATOM   PRO  N    0   0   0
+ATOM   PRO  CA   0   0   1
+ATOM   PRO  C    0   0   1
+ATOM   PRO  O    0   1   1
+ATOM   PRO  CB   0   0  -1 CA
+ATOM   GLN  N    0   1   0
+ATOM   GLN  CA   0   0   1
+ATOM   GLN  C    0   0   1
+ATOM   GLN  O    0   1   1
+ATOM   GLN  CB   0   0  -1 CA
+ATOM   ARG  N    0   1   0
+ATOM   ARG  CA   0   0   1
+ATOM   ARG  C    0   0   1
+ATOM   ARG  O    0   1   1
+ATOM   ARG  CB   0   0  -1 CA
+ATOM   SER  N    0   1   0
+ATOM   SER  CA   0   0   1
+ATOM   SER  C    0   0   1
+ATOM   SER  O    0   1   1
+ATOM   SER  CB   0   0  -1 CA
+ATOM   THR  N    0   1   0
+ATOM   THR  CA   0   0   1
+ATOM   THR  C    0   0   1
+ATOM   THR  O    0   1   1
+ATOM   THR  CB   0   0  -1 CA
+ATOM   VAL  N    0   1   0
+ATOM   VAL  CA   0   0   1
+ATOM   VAL  C    0   0   1
+ATOM   VAL  O    0   1   1
+ATOM   VAL  CB   0   0  -1 CA
+ATOM   TRP  N    0   1   0
+ATOM   TRP  CA   0   0   1
+ATOM   TRP  C    0   0   1
+ATOM   TRP  O    0   1   1
+ATOM   TRP  CB   0   0  -1 CA
+ATOM   TYR  N    0   1   0
+ATOM   TYR  CA   0   0   1
+ATOM   TYR  C    0   0   1
+ATOM   TYR  O    0   1   1
+ATOM   TYR  CB   0   0  -1 CA

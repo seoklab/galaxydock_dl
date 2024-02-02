@@ -1,0 +1,30 @@
+RES HOH
+
+ATM O     1    H2      0
+ATM H1    2    H1      0
+ATM H2    3    H2      0
+
+BND O    H1  
+BND O    H2   
+ANG H1   O    H2
+END
+
+RES FE
+
+ATM FE    1    FE      0
+END
+
+RES ZN
+
+ATM Zn    1    Zn      0
+END
+
+RES MG
+
+ATM MG    1    MG      0
+END
+
+RES CAL
+
+ATM C0    1    C0     0
+END

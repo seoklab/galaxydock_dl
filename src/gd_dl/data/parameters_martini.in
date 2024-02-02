@@ -1,0 +1,752 @@
+** PARAMETER FILE **
+
+! Parameters extracted from MARTINI, modified for bb-torsion 
+! hybrid topology by Park, Hahnbeom
+
+! name mass hybridization
+ATOM CLASS
+N     0.0    0 1
+C     0.0    0 2
+P5   72.0    0 3
+P4   72.0    0 4
+P3   72.0    0 5
+P2   72.0    0 6
+P1   72.0    0 7
+Nda  72.0    0 8
+Nd   72.0    0 9
+Na   72.0    0 10
+N0   72.0    0 11
+C5M  72.0    0 12
+C5C  72.0    0 13
+C4   72.0    0 14
+C3   72.0    0 15
+C2   72.0    0 16
+C1   72.0    0 17
+Qda  72.0    0 18
+Qd   72.0    0 19
+QaD  72.0    0 20
+QaE  72.0    0 21
+Q0   72.0    0 22
+SP4  72.0    0 23
+SP1  72.0    0 24
+SNd  72.0    0 25
+SNa  72.0    0 26
+SC5  72.0    0 27
+SC4  72.0    0 28
+SC3  72.0    0
+SC2  72.0    0
+SC1  72.0    0
+AC2  72.0    0
+AC1  72.0    0
+BP4  72.0    0
+END
+
+--------------------------------------------------------------------------
+
+BOND
+N   P5  320.000  1.43 ! all atom, NH1-CT1 from CHARMM22ph
+N   P4  320.000  1.43 ! all atom, NH1-CT1 from CHARMM22ph
+N   Na  320.000  1.43 ! all atom, N-CP1 from CHARMM22ph
+P5  C   250.000  1.49 ! all atom, CT1-C   from CHARMM22ph
+P4  C   250.000  1.49 ! all atom, CT1-C   from CHARMM22ph
+Na  C   250.000  1.49 ! all atom, CP1-C   from CHARMM22ph
+C   N   260.000  1.30 ! all atom, C-NH1   from CHARMM22ph
+P5  C1   17.925  3.25 ! LEU BS, ILE BS
+P5  C2   23.900  2.65 ! VAL BS
+Na  C2   17.925  3.00 ! PRO BS
+P5  C5M   5.975  4.00 ! MET BS
+P5  C5C  17.925  3.10 ! CYS BS
+P5  P1   23.900  2.55 ! SER BS, THR BS
+P5  P5   11.950  3.20 ! ASN BS
+P5  P4   11.950  4.00 ! GLN BS
+P5  QaD  17.925  3.20 ! ASP BS
+P5  QaE  11.950  4.00 ! GLU BS
+P5  N0   11.950  3.30 ! ARG BS
+P5  C3   11.950  3.30 ! LYS BS
+P5  SC4  17.925  3.10 ! HIS BS, TYR BS, TRP BS, PHE BS
+C3  Qd   11.950  2.80 ! LYS SS
+N0  Qd   11.950  3.40 ! ARG SS
+SC4 SP1  23.900  2.70 ! HIS SS1, TYR SS2, TRP SS1
+SC4 SC4  23.900  2.70 ! TYR SS1, PHE SS1, PHE SS2, TRP SS3
+SP1 SC4  23.900  2.70 ! TRP SS2, HIS SS2
+SP1 SP1  23.900  2.70 ! HIS SS2
+END
+
+--------------------------------------------------------------------------
+
+BOND ANGLE
+N    P5   C    50.000   107.00 ! all atom, NH1-CT1-C   from CHARMM22ph
+N    P4   C    50.000   107.00 ! all atom, NH1-CT1-C   from CHARMM22ph
+N    Na   C    50.000   108.20 ! all atom, N  -CP1-C   from CHARMM22ph
+P5   C    N    50.000   120.00 ! all atom, CT1-C  -NH1 from CHARMM22ph
+P4   C    N    50.000   120.00 ! all atom, CT1-C  -NH1 from CHARMM22ph
+Na   C    N    80.000   116.50 ! all atom, CP1-C  -NH1 from CHARMM22ph
+C    N    P5   50.000   120.00 ! all atom, C  -NH1-CT1 from CHARMM22ph
+C    N    P4   50.000   120.00 ! all atom, C  -NH1-CT1 from CHARMM22ph
+C    N    Na   60.000   117.00 ! all atom, C  -N  -CP2 from CHARMM22ph
+P5   P5   C1    0.05975 100.00 ! LEU BBS, ILE BBS
+P5   P5   C2    0.05975 100.00 ! VAL BBS
+P5   P5   C5M   0.05975 100.00 ! MET BBS
+P5   P5   C5C   0.05975 100.00 ! CYS BBS
+P5   P5   P1    0.05975 100.00 ! SER BBS, THR BBS
+P5   P5   P5    0.05975 100.00 ! ASN BBS
+P5   P5   P4    0.05975 100.00 ! GLN BBS
+P5   P5   QaD   0.05975 100.00 ! ASP BBS
+P5   P5   QaE   0.05975 100.00 ! GLU BBS
+P5   P5   N0    0.05975 100.00 ! ARG BBS
+P5   P5   C3    0.05975 100.00 ! LYS BBS
+P5   P5   SC4   0.05975 100.00 ! HIS BBS
+P5   P5   SC4   0.05975 100.00 ! PHE BBS
+P5   P5   SC4   0.05975 100.00 ! TYR BBS
+P5   P5   SC4   0.05975 100.00 ! TRP BBS
+P5   P5   C1    0.05975 100.00 ! LEU BBS, ILE BBS
+P5   P5   C2    0.05975 100.00 ! VAL BBS, PRO BBS
+P5   P5   C5M   0.05975 100.00 ! MET BBS
+P5   P5   C5C   0.05975 100.00 ! CYS BBS
+P5   P5   P1    0.05975 100.00 ! SER BBS, THR BBS
+P5   P5   P5    0.05975 100.00 ! ASN BBS
+P5   P5   P4    0.05975 100.00 ! GLN BBS
+P5   P5   QaD   0.05975 100.00 ! ASP BBS
+P5   P5   QaE   0.05975 100.00 ! GLU BBS
+P5   P5   N0    0.05975 100.00 ! ARG BBS
+P5   P5   C3    0.05975 100.00 ! LYS BBS
+P5   P5   SC4   0.05975 100.00 ! HIS BBS
+P5   P5   SC4   0.05975 100.00 ! PHE BBS
+P5   P5   SC4   0.05975 100.00 ! TYR BBS
+P5   P5   SC4   0.05975 100.00 ! TRP BBS
+P4   P5   C1    0.05975 100.00 ! LEU BBS, ILE BBS
+P4   P5   C2    0.05975 100.00 ! VAL BBS, PRO BBS
+P4   P5   C5M   0.05975 100.00 ! MET BBS
+P4   P5   C5C   0.05975 100.00 ! CYS BBS
+P4   P5   P1    0.05975 100.00 ! SER BBS, THR BBS
+P4   P5   P5    0.05975 100.00 ! ASN BBS
+P4   P5   P4    0.05975 100.00 ! GLN BBS
+P4   P5   QaD   0.05975 100.00 ! ASP BBS
+P4   P5   QaE   0.05975 100.00 ! GLU BBS
+P4   P5   N0    0.05975 100.00 ! ARG BBS
+P4   P5   C3    0.05975 100.00 ! LYS BBS
+P4   P5   SC4   0.05975 100.00 ! HIS BBS
+P4   P5   SC4   0.05975 100.00 ! PHE BBS
+P4   P5   SC4   0.05975 100.00 ! TYR BBS
+P4   P5   SC4   0.05975 100.00 ! TRP BBS
+P4   P5   C1    0.05975 100.00 ! LEU BBS, ILE BBS
+P4   P5   C2    0.05975 100.00 ! VAL BBS, PRO BBS
+P4   P5   C5M   0.05975 100.00 ! MET BBS
+P4   P5   C5C   0.05975 100.00 ! CYS BBS
+P4   P5   P1    0.05975 100.00 ! SER BBS, THR BBS
+P4   P5   P5    0.05975 100.00 ! ASN BBS
+P4   P5   P4    0.05975 100.00 ! GLN BBS
+P4   P5   QaD   0.05975 100.00 ! ASP BBS
+P4   P5   QaE   0.05975 100.00 ! GLU BBS
+P4   P5   N0    0.05975 100.00 ! ARG BBS
+P4   P5   C3    0.05975 100.00 ! LYS BBS
+P4   P5   SC4   0.05975 100.00 ! HIS BBS
+P4   P5   SC4   0.05975 100.00 ! PHE BBS
+P4   P5   SC4   0.05975 100.00 ! TYR BBS
+P4   P5   SC4   0.05975 100.00 ! TRP BBS
+Na   P5   C1    0.05975 100.00 ! LEU BBS, ILE BBS
+Na   P5   C2    0.05975 100.00 ! VAL BBS
+Na   P5   C5M   0.05975 100.00 ! MET BBS
+Na   P5   C5C   0.05975 100.00 ! CYS BBS
+Na   P5   P1    0.05975 100.00 ! SER BBS, THR BBS
+Na   P5   P5    0.05975 100.00 ! ASN BBS
+Na   P5   P4    0.05975 100.00 ! GLN BBS
+Na   P5   QaD   0.05975 100.00 ! ASP BBS
+Na   P5   QaE   0.05975 100.00 ! GLU BBS
+Na   P5   N0    0.05975 100.00 ! ARG BBS
+Na   P5   C3    0.05975 100.00 ! LYS BBS
+Na   P5   SC4   0.05975 100.00 ! HIS BBS
+Na   P5   SC4   0.05975 100.00 ! PHE BBS
+Na   P5   SC4   0.05975 100.00 ! TYR BBS
+Na   P5   SC4   0.05975 100.00 ! TRP BBS
+Na   P5   C1    0.05975 100.00 ! LEU BBS, ILE BBS
+Na   P5   C2    0.05975 100.00 ! VAL BBS
+Na   P5   C5M   0.05975 100.00 ! MET BBS
+Na   P5   C5C   0.05975 100.00 ! CYS BBS
+Na   P5   P1    0.05975 100.00 ! SER BBS, THR BBS
+Na   P5   P5    0.05975 100.00 ! ASN BBS
+Na   P5   P4    0.05975 100.00 ! GLN BBS
+Na   P5   QaD   0.05975 100.00 ! ASP BBS
+Na   P5   QaE   0.05975 100.00 ! GLU BBS
+Na   P5   N0    0.05975 100.00 ! ARG BBS
+Na   P5   C3    0.05975 100.00 ! LYS BBS
+Na   P5   SC4   0.05975 100.00 ! HIS BBS
+Na   P5   SC4   0.05975 100.00 ! PHE BBS
+Na   P5   SC4   0.05975 100.00 ! TYR BBS
+Na   P5   SC4   0.05975 100.00 ! TRP BBS
+P5   Na   C2    0.05975 100.00 ! PRO BBS
+Na   Na   C2    0.05975 100.00 ! PRO BBS
+P4   Na   C2    0.05975 100.00 ! PRO BBS
+P5   C3   Qd    0.05975 180.00 ! LYS BSS
+P5   N0   Qd    0.05975 180.00 ! ARG BSS
+P5   SC4  SP1   0.11950 150.00 ! HIS BSS
+P5   SC4  SC4   0.11950 150.00 ! TYR BSS
+P5   SC4  SC4   0.11950 150.00 ! PHE BSS
+P5   SC4  SP1   0.11950  90.00 ! TRP BSS
+P5   SC4  SC4   0.11950 210.00 ! TRP BSS
+END
+
+--------------------------------------------------------------------------
+
+DIHEDRAL ANGLE
+N   P5  C   N    1     0.00  0.0  1.0 ! Removed: altered to phi/psi preference
+N   P4  C   N    1     0.00  0.0  1.0 ! Removed: altered to phi/psi preference
+N   Na  C   N    1     0.00  0.0  1.0 ! Removed: altered to phi/psi preference
+C   N   P5  C    1     0.00  0.0  1.0 ! Removed: altered to phi/psi preference
+C   N   P4  C    1     0.00  0.0  1.0 ! Removed: altered to phi/psi preference
+C   N   Na  C    1     0.00  0.0  1.0 ! Removed: altered to phi/psi preference
+P5  C   N   P5   1   250.00  0.0  1.0 ! all atom, CT1-C-NH1-CT1 from CHARMM22ph
+P5  C   N   P4   1   250.00  0.0  1.0 ! all atom, CT1-C-NH1-CT1 from CHARMM22ph
+P5  C   N   Na   1   250.00  0.0  1.0 ! all atom, CT1-C-NH1-CT1 from CHARMM22ph
+P4  C   N   P5   1   250.00  0.0  1.0 ! all atom, CT1-C-NH1-CT1 from CHARMM22ph
+P4  C   N   P4   1   250.00  0.0  1.0 ! all atom, CT1-C-NH1-CT1 from CHARMM22ph
+P4  C   N   Na   1   250.00  0.0  1.0 ! all atom, CT1-C-NH1-CP1 from CHARMM22ph
+Na  C   N   P5   1   250.00  0.0  1.0 ! all atom, CP1-C-N  -CT1 from CHARMM22ph
+Na  C   N   P4   1   250.00  0.0  1.0 ! all atom, CP1-C-N  -CT1 from CHARMM22ph
+Na  C   N   Na   1   250.00  0.0  1.0 ! all atom, CP1-C-N  -CP1 from CHARMM22ph
+END
+
+--------------------------------------------------------------------------
+
+IMPROPER TORSION ANGLE
+P5  SP1 SP1 SC4  0.11950   0.00 ! HIS BSSS, 1342
+P5  SC4 SP1 SC4  0.11950   0.00 ! TYR BSSS, 1342
+P5  SC4 SC4 SC4  0.11950   0.00 ! PHE BSSS, 1342
+P5  SP1 SC4 SC4  0.11950   0.00 ! TRP BSSS, 1342
+SC4 SP1 SC4 SC4  0.47801   0.00 ! TRP SSSS, 2354
+END
+
+--------------------------------------------------------------------------
+
+! i     j       Rmin       Emin
+VDW
+E14FAC 0.0
+V14FAC 0.0
+P5     P5    5.27559   -1.33838 ! supra attractive
+P4     P4    5.27558   -1.19500 ! attractive 
+BP4    BP4   5.27558   -1.19500 ! attractive
+SP4    SP4   4.82658   -0.89627 ! 75attractive, s=0.43
+P3     P3    5.27558   -1.19500 ! attractive 
+P2     P2    5.27558   -1.07548 ! almost attractive
+P1     P1    5.27558   -1.07548 ! almost attractive
+SP1    SP1   4.82660   -0.80663 ! 75almost attractive, s=0.43
+Nda    Nda   5.27558   -1.07548 ! almost attractive
+Nd     Nd    5.27558   -0.95597 ! semi attractive
+SNd    SNd   4.82660   -0.71700 ! 75semi attractive, s=0.43
+Na     Na    5.27558   -0.95597 ! semi attractive
+SNa    SNa   4.82660   -0.71700 ! 75semi attractive, s=0.43
+N0     N0    5.27558   -0.83652 ! intermediate 
+C5M    C5M   5.27558   -0.83652 ! intermediate 
+C5C    C5C   5.27558   -0.83652 ! intermediate 
+SC5    SC5   4.82657   -0.62741 ! 75intermediate, s=0.43
+C4     C4    5.27558   -0.83652 ! intermediate 
+SC4    SC4   4.82657   -0.62741 ! 75intermediate, s=0.43
+C3     C3    5.27558   -0.83652 ! intermediate 
+SC3    SC3   4.82657   -0.62741 ! 75intermediate, s=0.43
+C2     C2    5.27558   -0.83652 ! intermediate 
+AC2    AC2   5.27558   -0.83652 ! intermediate 
+SC2    SC2   4.82657   -0.62741 ! 75intermediate, s=0.43
+C1     C1    5.27558   -0.83652 ! intermediate 
+AC1    AC1   5.27558   -0.83652 ! intermediate 
+SC1    SC1   4.82657   -0.62741 ! 75intermediate, s=0.43
+Qda    Qda   5.27559   -1.33838 ! supra attractive
+Qd     Qd    5.27558   -1.19500 ! attractive 
+QaD    QaD   5.27558   -1.19500 ! attractive 
+QaE    QaE   5.27558   -1.19500 ! attractive 
+Q0     Q0    5.27558   -0.83652 ! intermediate 
+P5     P4    5.27559   -1.33838 ! supra attractive
+P5     BP4   5.27559   -1.33838 ! supra attractive
+P5     SP4   5.27559   -1.33838 ! supra attractive
+P5     P3    5.27559   -1.33838 ! supra attractive
+P5     P2    5.27559   -1.33838 ! supra attractive
+P5     P1    5.27559   -1.33838 ! supra attractive
+P5     SP1   5.27559   -1.33838 ! supra attractive
+P5     Nda   5.27558   -1.19500 ! attractive 
+P5     Nd    5.27558   -1.19500 ! attractive 
+P5     SNd   5.27558   -1.19500 ! attractive 
+P5     Na    5.27558   -1.19500 ! attractive 
+P5     SNa   5.27558   -1.19500 ! attractive 
+P5     N0    5.27558   -0.83652 ! intermediate 
+P5     C5C   5.27560   -0.74088 ! almost intermediate 
+P5     C5M   5.27560   -0.74088 ! almost intermediate 
+P5     SC5   5.27560   -0.74088 ! almost intermediate 
+P5     C4    5.27556   -0.64535 ! semi repulsive
+P5     SC4   5.27556   -0.64535 ! semi repulsive
+P5     C3    5.27556   -0.64535 ! semi repulsive
+P5     SC3   5.27556   -0.64535 ! semi repulsive
+P5     C2    5.27562   -0.54967 ! almost repulsive 
+P5     AC2   5.27562   -0.54967 ! almost repulsive 
+P5     SC2   5.27562   -0.54967 ! almost repulsive 
+P5     C1    5.27558   -0.47800 ! repulsive 
+P5     AC1   5.27558   -0.47800 ! repulsive 
+P5     SC1   5.27558   -0.47800 ! repulsive 
+P5     Qda   5.27559   -1.33838 ! supra attractive
+P5     Qd    5.27559   -1.33838 ! supra attractive
+P5     QaD   5.27559   -1.33838 ! supra attractive
+P5     QaE   5.27559   -1.33838 ! supra attractive
+P5     Q0    5.27558   -1.19500 ! attractive 
+P4     BP4   6.39804   -1.33843 ! supra attractive, s=0.57
+P4     SP4   5.27558   -1.19500 ! attractive 
+P4     P3    5.27558   -1.19500 ! attractive 
+P4     P2    5.27558   -1.07548 ! almost attractive
+P4     P1    5.27558   -1.07548 ! almost attractive
+P4     SP1   5.27558   -1.07548 ! almost attractive
+P4     Nda   5.27558   -0.95597 ! semi attractive
+P4     Nd    5.27558   -0.95597 ! semi attractive
+P4     SNd   5.27558   -0.95597 ! semi attractive
+P4     Na    5.27558   -0.95597 ! semi attractive
+P4     SNa   5.27558   -0.95597 ! semi attractive
+P4     N0    5.27558   -0.83652 ! intermediate 
+P4     C5C   5.27560   -0.74088 ! almost intermediate 
+P4     C5M   5.27560   -0.74088 ! almost intermediate 
+P4     SC5   5.27560   -0.74088 ! almost intermediate 
+P4     C4    5.27556   -0.64535 ! semi repulsive
+P4     SC4   5.27556   -0.64535 ! semi repulsive
+P4     C3    5.27556   -0.64535 ! semi repulsive
+P4     SC3   5.27556   -0.64535 ! semi repulsive
+P4     C2    5.27562   -0.54967 ! almost repulsive 
+P4     AC2   5.27562   -0.54967 ! almost repulsive 
+P4     SC2   5.27562   -0.54967 ! almost repulsive 
+P4     C1    5.27558   -0.47800 ! repulsive 
+P4     AC1   5.27558   -0.47800 ! repulsive 
+P4     SC1   5.27558   -0.47800 ! repulsive 
+P4     Qda   5.27559   -1.33838 ! supra attractive
+P4     Qd    5.27559   -1.33838 ! supra attractive
+P4     QaD   5.27559   -1.33838 ! supra attractive
+P4     QaE   5.27559   -1.33838 ! supra attractive
+P4     Q0    5.27559   -1.33838 ! supra attractive
+BP4    SP4   5.27558   -1.19500 ! attractive 
+BP4    P3    5.27558   -1.19500 ! attractive 
+BP4    P2    5.27558   -1.07548 ! almost attractive
+BP4    P1    5.27558   -1.07548 ! almost attractive
+BP4    SP1   5.27558   -1.07548 ! almost attractive
+BP4    Nda   5.27558   -0.95597 ! semi attractive
+BP4    Nd    5.27558   -0.95597 ! semi attractive
+BP4    SNd   5.27558   -0.95597 ! semi attractive
+BP4    Na    5.27558   -0.95597 ! semi attractive
+BP4    SNa   5.27558   -0.95597 ! semi attractive
+BP4    N0    5.27558   -0.83652 ! intermediate 
+BP4    C5C   5.27560   -0.74088 ! almost intermediate 
+BP4    C5M   5.27560   -0.74088 ! almost intermediate 
+BP4    SC5   5.27560   -0.74088 ! almost intermediate 
+BP4    C4    5.27556   -0.64535 ! semi repulsive
+BP4    SC4   5.27556   -0.64535 ! semi repulsive
+BP4    C3    5.27556   -0.64535 ! semi repulsive
+BP4    SC3   5.27556   -0.64535 ! semi repulsive
+BP4    C2    5.27562   -0.54967 ! almost repulsive 
+BP4    AC2   5.27562   -0.54967 ! almost repulsive 
+BP4    SC2   5.27562   -0.54967 ! almost repulsive 
+BP4    C1    5.27558   -0.47800 ! repulsive 
+BP4    AC1   5.27558   -0.47800 ! repulsive 
+BP4    SC1   5.27558   -0.47800 ! repulsive 
+BP4    Qda   5.27559   -1.33838 ! supra attractive
+BP4    Qd    5.27559   -1.33838 ! supra attractive
+BP4    QaD   5.27559   -1.33838 ! supra attractive
+BP4    QaE   5.27559   -1.33838 ! supra attractive
+BP4    Q0    5.27559   -1.33838 ! supra attractive
+SP4    P3    5.27558   -1.19500 ! attractive 
+SP4    P2    5.27558   -1.07548 ! almost attractive
+SP4    P1    5.27558   -1.07548 ! almost attractive
+SP4    SP1   4.82660   -0.80663 ! 75almost attractive, s=0.43
+SP4    Nda   5.27558   -0.95597 ! semi attractive
+SP4    Nd    5.27558   -0.95597 ! semi attractive
+SP4    SNd   4.82660   -0.71700 ! 75semi attractive, s=0.43
+SP4    Na    5.27558   -0.95597 ! semi attractive
+SP4    SNa   4.82660   -0.71700 ! 75semi attractive, s=0.43
+SP4    N0    5.27558   -0.83652 ! intermediate 
+SP4    C5C   5.27560   -0.74088 ! almost intermediate 
+SP4    C5M   5.27560   -0.74088 ! almost intermediate 
+SP4    SC5   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SP4    C4    5.27556   -0.64535 ! semi repulsive
+SP4    SC4   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SP4    C3    5.27556   -0.64535 ! semi repulsive
+SP4    SC3   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SP4    C2    5.27562   -0.54967 ! almost repulsive 
+SP4    AC2   5.27562   -0.54967 ! almost repulsive 
+SP4    SC2   4.82659   -0.41228 ! 75almost repulsive, s=0.43
+SP4    C1    5.27558   -0.47800 ! repulsive 
+SP4    AC1   5.27558   -0.47800 ! repulsive 
+SP4    SC1   4.82660   -0.35850 ! 75repulsive, s=0.43
+SP4    Qda   5.27559   -1.33838 ! supra attractive
+SP4    Qd    5.27559   -1.33838 ! supra attractive
+SP4    QaD   5.27559   -1.33838 ! supra attractive
+SP4    QaE   5.27559   -1.33838 ! supra attractive
+SP4    Q0    5.27559   -1.33838 ! supra attractive
+P3     P2    5.27558   -1.07548 ! almost attractive
+P3     P1    5.27558   -1.07548 ! almost attractive
+P3     SP1   5.27558   -1.07548 ! almost attractive
+P3     Nda   5.27558   -1.07548 ! almost attractive
+P3     Nd    5.27558   -1.07548 ! almost attractive
+P3     SNd   5.27558   -1.07548 ! almost attractive
+P3     Na    5.27558   -1.07548 ! almost attractive
+P3     SNa   5.27558   -1.07548 ! almost attractive
+P3     N0    5.27558   -0.83652 ! intermediate 
+P3     C5C   5.27558   -0.83652 ! intermediate 
+P3     C5M   5.27558   -0.83652 ! intermediate 
+P3     SC5   5.27558   -0.83652 ! intermediate 
+P3     C4    5.27560   -0.74088 ! almost intermediate 
+P3     SC4   5.27560   -0.74088 ! almost intermediate 
+P3     C3    5.27560   -0.74088 ! almost intermediate 
+P3     SC3   5.27560   -0.74088 ! almost intermediate 
+P3     C2    5.27556   -0.64535 ! semi repulsive
+P3     AC2   5.27556   -0.64535 ! semi repulsive
+P3     SC2   5.27556   -0.64535 ! semi repulsive
+P3     C1    5.27562   -0.54967 ! almost repulsive 
+P3     AC1   5.27562   -0.54967 ! almost repulsive 
+P3     SC1   5.27562   -0.54967 ! almost repulsive 
+P3     Qda   5.27559   -1.33838 ! supra attractive
+P3     Qd    5.27559   -1.33838 ! supra attractive
+P3     QaD   5.27559   -1.33838 ! supra attractive
+P3     QaE   5.27559   -1.33838 ! supra attractive
+P3     Q0    5.27558   -1.19500 ! attractive 
+P2     P1    5.27558   -1.07548 ! almost attractive
+P2     SP1   5.27558   -1.07548 ! almost attractive
+P2     Nda   5.27558   -1.07548 ! almost attractive
+P2     Nd    5.27558   -1.07548 ! almost attractive
+P2     SNd   5.27558   -1.07548 ! almost attractive
+P2     Na    5.27558   -1.07548 ! almost attractive
+P2     SNa   5.27558   -1.07548 ! almost attractive
+P2     N0    5.27558   -0.95597 ! semi attractive
+P2     C5C   5.27558   -0.83652 ! intermediate 
+P2     C5M   5.27558   -0.83652 ! intermediate 
+P2     SC5   5.27558   -0.83652 ! intermediate 
+P2     C4    5.27558   -0.83652 ! intermediate 
+P2     SC4   5.27558   -0.83652 ! intermediate 
+P2     C3    5.27560   -0.74088 ! almost intermediate 
+P2     SC3   5.27560   -0.74088 ! almost intermediate 
+P2     C2    5.27556   -0.64535 ! semi repulsive
+P2     AC2   5.27556   -0.64535 ! semi repulsive
+P2     SC2   5.27556   -0.64535 ! semi repulsive
+P2     C1    5.27562   -0.54967 ! almost repulsive 
+P2     AC1   5.27562   -0.54967 ! almost repulsive 
+P2     SC1   5.27562   -0.54967 ! almost repulsive 
+P2     Qda   5.27558   -1.19500 ! attractive 
+P2     Qd    5.27558   -1.19500 ! attractive 
+P2     QaD   5.27558   -1.19500 ! attractive 
+P2     QaE   5.27558   -1.19500 ! attractive 
+P2     Q0    5.27558   -1.07548 ! almost attractive
+P1     SP1   5.27558   -1.07548 ! almost attractive
+P1     Nda   5.27558   -1.07548 ! almost attractive
+P1     Nd    5.27558   -1.07548 ! almost attractive
+P1     SNd   5.27558   -1.07548 ! almost attractive
+P1     Na    5.27558   -1.07548 ! almost attractive
+P1     SNa   5.27558   -1.07548 ! almost attractive
+P1     N0    5.27558   -0.95597 ! semi attractive
+P1     C5C   5.27558   -0.83652 ! intermediate 
+P1     C5M   5.27558   -0.83652 ! intermediate 
+P1     SC5   5.27558   -0.83652 ! intermediate 
+P1     C4    5.27558   -0.83652 ! intermediate 
+P1     SC4   5.27558   -0.83652 ! intermediate 
+P1     C3    5.27558   -0.83652 ! intermediate 
+P1     SC3   5.27558   -0.83652 ! intermediate 
+P1     C2    5.27560   -0.74088 ! almost intermediate 
+P1     AC2   5.27560   -0.74088 ! almost intermediate 
+P1     SC2   5.27560   -0.74088 ! almost intermediate 
+P1     C1    5.27556   -0.64535 ! semi repulsive
+P1     AC1   5.27556   -0.64535 ! semi repulsive
+P1     SC1   5.27556   -0.64535 ! semi repulsive
+P1     Qda   5.27558   -1.19500 ! attractive 
+P1     Qd    5.27558   -1.19500 ! attractive 
+P1     QaD   5.27558   -1.19500 ! attractive 
+P1     QaE   5.27558   -1.19500 ! attractive 
+P1     Q0    5.27558   -0.95597 ! semi attractive
+SP1    Nda   5.27558   -1.07548 ! almost attractive
+SP1    Nd    5.27558   -1.07548 ! almost attractive
+SP1    SNd   4.82660   -0.80663 ! 75almost attractive, s=0.43
+SP1    Na    5.27558   -1.07548 ! almost attractive
+SP1    SNa   4.82660   -0.80663 ! 75almost attractive, s=0.43
+SP1    N0    5.27558   -0.95597 ! semi attractive
+SP1    C5C   5.27558   -0.83652 ! intermediate 
+SP1    C5M   5.27558   -0.83652 ! intermediate 
+SP1    SC5   4.82657   -0.62741 ! 75intermediate, s=0.43
+SP1    C4    5.27558   -0.83652 ! intermediate 
+SP1    SC4   4.82657   -0.62741 ! 75intermediate, s=0.43
+SP1    C3    5.27558   -0.83652 ! intermediate 
+SP1    SC3   4.82657   -0.62741 ! 75intermediate, s=0.43
+SP1    C2    5.27560   -0.74088 ! almost intermediate 
+SP1    AC2   5.27560   -0.74088 ! almost intermediate 
+SP1    SC2   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SP1    C1    5.27556   -0.64535 ! semi repulsive
+SP1    AC1   5.27556   -0.64535 ! semi repulsive
+SP1    SC1   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SP1    Qda   5.27558   -1.19500 ! attractive 
+SP1    Qd    5.27558   -1.19500 ! attractive 
+SP1    QaD   5.27558   -1.19500 ! attractive 
+SP1    QaE   5.27558   -1.19500 ! attractive 
+SP1    Q0    5.27558   -1.19500 ! attractive 
+Nda    Nd    5.27558   -1.07548 ! almost attractive
+Nda    SNd   5.27558   -1.07548 ! almost attractive
+Nda    Na    5.27558   -1.07548 ! almost attractive
+Nda    SNa   5.27558   -1.07548 ! almost attractive
+Nda    N0    5.27558   -0.83652 ! intermediate 
+Nda    C5C   5.27558   -0.83652 ! intermediate 
+Nda    C5M   5.27558   -0.83652 ! intermediate 
+Nda    SC5   5.27558   -0.83652 ! intermediate 
+Nda    C4    5.27560   -0.74088 ! almost intermediate 
+Nda    SC4   5.27560   -0.74088 ! almost intermediate 
+Nda    C3    5.27556   -0.64535 ! semi repulsive
+Nda    SC3   5.27556   -0.64535 ! semi repulsive
+Nda    C2    5.27556   -0.64535 ! semi repulsive
+Nda    AC2   5.27556   -0.64535 ! semi repulsive
+Nda    SC2   5.27556   -0.64535 ! semi repulsive
+Nda    C1    5.27556   -0.64535 ! semi repulsive
+Nda    AC1   5.27556   -0.64535 ! semi repulsive
+Nda    SC1   5.27556   -0.64535 ! semi repulsive
+Nda    Qda   5.27558   -1.19500 ! attractive 
+Nda    Qd    5.27558   -1.19500 ! attractive 
+Nda    QaD   5.27558   -1.19500 ! attractive 
+Nda    QaE   5.27558   -1.19500 ! attractive 
+Nda    Q0    5.27558   -0.95597 ! semi attractive
+Nd     SNd   5.27558   -0.95597 ! semi attractive
+Nd     Na    5.27558   -1.07548 ! almost attractive
+Nd     SNa   5.27558   -1.07548 ! almost attractive
+Nd     N0    5.27558   -0.83652 ! intermediate 
+Nd     C5C   5.27558   -0.83652 ! intermediate 
+Nd     C5M   5.27558   -0.83652 ! intermediate 
+Nd     SC5   5.27558   -0.83652 ! intermediate 
+Nd     C4    5.27560   -0.74088 ! almost intermediate 
+Nd     SC4   5.27560   -0.74088 ! almost intermediate 
+Nd     C3    5.27556   -0.64535 ! semi repulsive
+Nd     SC3   5.27556   -0.64535 ! semi repulsive
+Nd     C2    5.27556   -0.64535 ! semi repulsive
+Nd     AC2   5.27556   -0.64535 ! semi repulsive
+Nd     SC2   5.27556   -0.64535 ! semi repulsive
+Nd     C1    5.27556   -0.64535 ! semi repulsive
+Nd     AC1   5.27556   -0.64535 ! semi repulsive
+Nd     SC1   5.27556   -0.64535 ! semi repulsive
+Nd     Qda   5.27558   -1.19500 ! attractive 
+Nd     Qd    5.27558   -0.95597 ! semi attractive
+Nd     QaD   5.27558   -1.19500 ! attractive 
+Nd     QaE   5.27558   -1.19500 ! attractive 
+Nd     Q0    5.27558   -0.95597 ! semi attractive
+SNd    Na    5.27558   -1.07548 ! almost attractive
+SNd    SNa   4.82660   -0.80663 ! 75almost attractive, s=0.43
+SNd    N0    5.27558   -0.83652 ! intermediate 
+SNd    C5C   5.27558   -0.83652 ! intermediate 
+SNd    C5M   5.27558   -0.83652 ! intermediate 
+SNd    SC5   4.82657   -0.62741 ! 75intermediate, s=0.43
+SNd    C4    5.27560   -0.74088 ! almost intermediate 
+SNd    SC4   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SNd    C3    5.27556   -0.64535 ! semi repulsive
+SNd    SC3   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SNd    C2    5.27556   -0.64535 ! semi repulsive
+SNd    AC2   5.27556   -0.64535 ! semi repulsive
+SNd    SC2   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SNd    C1    5.27556   -0.64535 ! semi repulsive
+SNd    AC1   5.27556   -0.64535 ! semi repulsive
+SNd    SC1   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SNd    Qda   5.27558   -1.19500 ! attractive 
+SNd    Qd    5.27558   -0.95597 ! semi attractive
+SNd    QaD   5.27558   -1.19500 ! attractive 
+SNd    QaE   5.27558   -1.19500 ! attractive 
+SNd    Q0    5.27558   -0.95597 ! semi attractive
+Na     SNa   5.27558   -0.95597 ! semi attractive
+Na     N0    5.27558   -0.83652 ! intermediate 
+Na     C5C   5.27558   -0.83652 ! intermediate 
+Na     C5M   5.27558   -0.83652 ! intermediate 
+Na     SC5   5.27558   -0.83652 ! intermediate 
+Na     C4    5.27560   -0.74088 ! almost intermediate 
+Na     SC4   5.27560   -0.74088 ! almost intermediate 
+Na     C3    5.27556   -0.64535 ! semi repulsive
+Na     SC3   5.27556   -0.64535 ! semi repulsive
+Na     C2    5.27556   -0.64535 ! semi repulsive
+Na     AC2   5.27556   -0.64535 ! semi repulsive
+Na     SC2   5.27556   -0.64535 ! semi repulsive
+Na     C1    5.27556   -0.64535 ! semi repulsive
+Na     AC1   5.27556   -0.64535 ! semi repulsive
+Na     SC1   5.27556   -0.64535 ! semi repulsive
+Na     Qda   5.27558   -1.19500 ! attractive 
+Na     Qd    5.27558   -1.19500 ! attractive 
+Na     QaD   5.27558   -0.95597 ! semi attractive
+Na     QaE   5.27558   -0.95597 ! semi attractive
+Na     Q0    5.27558   -0.95597 ! semi attractive
+SNa    N0    5.27558   -0.83652 ! intermediate 
+SNa    C5C   5.27558   -0.83652 ! intermediate 
+SNa    C5M   5.27558   -0.83652 ! intermediate 
+SNa    SC5   4.82657   -0.62741 ! 75intermediate, s=0.43
+SNa    C4    5.27560   -0.74088 ! almost intermediate 
+SNa    SC4   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SNa    C3    5.27556   -0.64535 ! semi repulsive
+SNa    SC3   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SNa    C2    5.27556   -0.64535 ! semi repulsive
+SNa    AC2   5.27556   -0.64535 ! semi repulsive
+SNa    SC2   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SNa    C1    5.27556   -0.64535 ! semi repulsive
+SNa    AC1   5.27556   -0.64535 ! semi repulsive
+SNa    SC1   4.82658   -0.48399 ! 75semi repulsive s=0.43
+SNa    Qda   5.27558   -1.19500 ! attractive 
+SNa    Qd    5.27558   -0.95597 ! semi attractive
+SNa    QaD   5.27558   -1.19500 ! attractive 
+SNa    QaE   5.27558   -1.19500 ! attractive 
+SNa    Q0    5.27558   -0.95597 ! semi attractive
+N0     C5C   5.27558   -0.83652 ! intermediate 
+N0     C5M   5.27558   -0.83652 ! intermediate 
+N0     SC5   5.27558   -0.83652 ! intermediate 
+N0     C4    5.27558   -0.83652 ! intermediate 
+N0     SC4   5.27558   -0.83652 ! intermediate 
+N0     C3    5.27558   -0.83652 ! intermediate 
+N0     SC3   5.27558   -0.83652 ! intermediate 
+N0     C2    5.27560   -0.74088 ! almost intermediate 
+N0     AC2   5.27560   -0.74088 ! almost intermediate 
+N0     SC2   5.27560   -0.74088 ! almost intermediate 
+N0     C1    5.27556   -0.64535 ! semi repulsive
+N0     AC1   5.27556   -0.64535 ! semi repulsive
+N0     SC1   5.27556   -0.64535 ! semi repulsive
+N0     Qda   5.27558   -0.83652 ! intermediate 
+N0     Qd    5.27558   -0.83652 ! intermediate 
+N0     QaD   5.27558   -0.83652 ! intermediate 
+N0     QaE   5.27558   -0.83652 ! intermediate 
+N0     Q0    5.27558   -0.83652 ! intermediate 
+C5C    SC5   5.27558   -0.83652 ! intermediate 
+C5C    C4    5.27558   -0.83652 ! intermediate 
+C5C    SC4   5.27558   -0.83652 ! intermediate 
+C5C    C3    5.27558   -0.83652 ! intermediate 
+C5C    SC3   5.27558   -0.83652 ! intermediate 
+C5C    C2    5.27560   -0.74088 ! almost intermediate 
+C5C    AC2   5.27560   -0.74088 ! almost intermediate 
+C5C    SC2   5.27560   -0.74088 ! almost intermediate 
+C5C    C1    5.27560   -0.74088 ! almost intermediate 
+C5C    AC1   5.27560   -0.74088 ! almost intermediate 
+C5C    SC1   5.27560   -0.74088 ! almost intermediate 
+C5C    Qda   5.27560   -0.74088 ! almost intermediate 
+C5C    Qd    5.27560   -0.74088 ! almost intermediate 
+C5C    QaD   5.27560   -0.74088 ! almost intermediate 
+C5C    QaE   5.27560   -0.74088 ! almost intermediate 
+C5C    Q0    5.27560   -0.74088 ! almost intermediate 
+C5M    SC5   5.27558   -0.83652 ! intermediate 
+C5M    C4    5.27558   -0.83652 ! intermediate 
+C5M    SC4   5.27558   -0.83652 ! intermediate 
+C5M    C3    5.27558   -0.83652 ! intermediate 
+C5M    SC3   5.27558   -0.83652 ! intermediate 
+C5M    C2    5.27560   -0.74088 ! almost intermediate 
+C5M    AC2   5.27560   -0.74088 ! almost intermediate 
+C5M    SC2   5.27560   -0.74088 ! almost intermediate 
+C5M    C1    5.27560   -0.74088 ! almost intermediate 
+C5M    AC1   5.27560   -0.74088 ! almost intermediate 
+C5M    SC1   5.27560   -0.74088 ! almost intermediate 
+C5M    Qda   5.27560   -0.74088 ! almost intermediate 
+C5M    Qd    5.27560   -0.74088 ! almost intermediate 
+C5M    QaD   5.27560   -0.74088 ! almost intermediate 
+C5M    QaE   5.27560   -0.74088 ! almost intermediate 
+C5M    Q0    5.27560   -0.74088 ! almost intermediate 
+SC5    C4    5.27558   -0.83652 ! intermediate 
+SC5    SC4   4.82657   -0.62741 ! 75intermediate, s=0.43
+SC5    C3    5.27558   -0.83652 ! intermediate 
+SC5    SC3   4.82657   -0.62741 ! 75intermediate, s=0.43
+SC5    C2    5.27560   -0.74088 ! almost intermediate 
+SC5    AC2   5.27560   -0.74088 ! almost intermediate 
+SC5    SC2   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SC5    C1    5.27560   -0.74088 ! almost intermediate 
+SC5    AC1   5.27560   -0.74088 ! almost intermediate 
+SC5    SC1   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SC5    Qda   5.27560   -0.74088 ! almost intermediate 
+SC5    Qd    5.27560   -0.74088 ! almost intermediate 
+SC5    QaD   5.27560   -0.74088 ! almost intermediate 
+SC5    QaE   5.27560   -0.74088 ! almost intermediate 
+SC5    Q0    5.27560   -0.74088 ! almost intermediate 
+C4     SC4   5.27558   -0.83652 ! intermediate 
+C4     C3    5.27558   -0.83652 ! intermediate 
+C4     SC3   5.27558   -0.83652 ! intermediate 
+C4     C2    5.27560   -0.74088 ! almost intermediate 
+C4     AC2   5.27560   -0.74088 ! almost intermediate 
+C4     SC2   5.27560   -0.74088 ! almost intermediate 
+C4     C1    5.27560   -0.74088 ! almost intermediate 
+C4     AC1   5.27560   -0.74088 ! almost intermediate 
+C4     SC1   5.27560   -0.74088 ! almost intermediate 
+C4     Qda   5.27556   -0.64535 ! semi repulsive
+C4     Qd    5.27556   -0.64535 ! semi repulsive
+C4     QaD   5.27556   -0.64535 ! semi repulsive
+C4     QaE   5.27556   -0.64535 ! semi repulsive
+C4     Q0    5.27556   -0.64535 ! semi repulsive
+SC4    C3    5.27558   -0.83652 ! intermediate 
+SC4    SC3   4.82657   -0.62741 ! 75intermediate, s=0.43
+SC4    C2    5.27560   -0.74088 ! almost intermediate 
+SC4    AC2   5.27560   -0.74088 ! almost intermediate 
+SC4    SC2   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SC4    C1    5.27560   -0.74088 ! almost intermediate 
+SC4    AC1   5.27560   -0.74088 ! almost intermediate 
+SC4    SC1   4.82657   -0.55570 ! 75almost intermediate, s=0.43
+SC4    Qda   5.27556   -0.64535 ! semi repulsive
+SC4    Qd    5.27556   -0.64535 ! semi repulsive
+SC4    QaD   5.27556   -0.64535 ! semi repulsive
+SC4    QaE   5.27556   -0.64535 ! semi repulsive
+SC4    Q0    5.27556   -0.64535 ! semi repulsive
+C3     SC3   5.27558   -0.83652 ! intermediate 
+C3     C2    5.27558   -0.83652 ! intermediate 
+C3     AC2   5.27558   -0.83652 ! intermediate 
+C3     SC2   5.27558   -0.83652 ! intermediate 
+C3     C1    5.27558   -0.83652 ! intermediate 
+C3     AC1   5.27558   -0.83652 ! intermediate 
+C3     SC1   5.27558   -0.83652 ! intermediate 
+C3     Qda   5.27562   -0.54967 ! almost repulsive 
+C3     Qd    5.27562   -0.54967 ! almost repulsive 
+C3     QaD   5.27562   -0.54967 ! almost repulsive 
+C3     QaE   5.27562   -0.54967 ! almost repulsive 
+C3     Q0    5.27562   -0.54967 ! almost repulsive 
+SC3    C2    5.27558   -0.83652 ! intermediate 
+SC3    AC2   5.27558   -0.83652 ! intermediate 
+SC3    SC2   4.82657   -0.62741 ! 75intermediate, s=0.43
+SC3    C1    5.27558   -0.83652 ! intermediate 
+SC3    AC1   5.27558   -0.83652 ! intermediate 
+SC3    SC1   4.82657   -0.62741 ! 75intermediate, s=0.43
+SC3    Qda   5.27562   -0.54967 ! almost repulsive 
+SC3    Qd    5.27562   -0.54967 ! almost repulsive 
+SC3    QaD   5.27562   -0.54967 ! almost repulsive 
+SC3    QaE   5.27562   -0.54967 ! almost repulsive 
+SC3    Q0    5.27562   -0.54967 ! almost repulsive 
+C2     AC2   5.27558   -0.83652 ! intermediate 
+C2     SC2   5.27558   -0.83652 ! intermediate 
+C2     C1    5.27558   -0.83652 ! intermediate 
+C2     AC1   5.27558   -0.83652 ! intermediate 
+C2     SC1   5.27558   -0.83652 ! intermediate 
+C2     Qda   6.95926   -0.47801 ! super repulsive, s=0.62
+C2     Qd    6.95926   -0.47801 ! super repulsive, s=0.62
+C2     QaD   6.95926   -0.47801 ! super repulsive, s=0.62
+C2     QaE   6.95926   -0.47801 ! super repulsive, s=0.62
+C2     Q0    6.95926   -0.47801 ! super repulsive, s=0.62
+AC2    SC2   5.27558   -0.83652 ! intermediate 
+AC2    C1    5.27558   -0.83652 ! intermediate 
+AC2    AC1   5.27558   -0.83652 ! intermediate 
+AC2    SC1   5.27558   -0.83652 ! intermediate 
+AC2    Qda   5.27558   -0.47800 ! repulsive 
+AC2    Qd    5.27558   -0.47800 ! repulsive 
+AC2    QaD   5.27558   -0.47800 ! repulsive 
+AC2    QaE   5.27558   -0.47800 ! repulsive 
+AC2    Q0    5.27558   -0.47800 ! repulsive 
+SC2    C1    5.27558   -0.83652 ! intermediate 
+SC2    AC1   5.27558   -0.83652 ! intermediate 
+SC2    SC1   4.82657   -0.62741 ! 75intermediate, s=0.43
+SC2    Qda   6.95926   -0.47801 ! super repulsive, s=0.62
+SC2    Qd    6.95926   -0.47801 ! super repulsive, s=0.62
+SC2    QaD   6.95926   -0.47801 ! super repulsive, s=0.62
+SC2    QaE   6.95926   -0.47801 ! super repulsive, s=0.62
+SC2    Q0    6.95926   -0.47801 ! super repulsive, s=0.62
+C1     AC1   5.27558   -0.83652 ! intermediate 
+C1     SC1   5.27558   -0.83652 ! intermediate 
+C1     Qda   6.95926   -0.47801 ! super repulsive, s=0.62
+C1     Qd    6.95926   -0.47801 ! super repulsive, s=0.62
+C1     QaD   6.95926   -0.47801 ! super repulsive, s=0.62
+C1     QaE   6.95926   -0.47801 ! super repulsive, s=0.62
+C1     Q0    6.95926   -0.47801 ! super repulsive, s=0.62
+AC1    SC1   5.27558   -0.83652 ! intermediate 
+AC1    Qda   5.27558   -0.47800 ! repulsive 
+AC1    Qd    5.27558   -0.47800 ! repulsive 
+AC1    QaD   5.27558   -0.47800 ! repulsive 
+AC1    QaE   5.27558   -0.47800 ! repulsive 
+AC1    Q0    5.27558   -0.47800 ! repulsive 
+SC1    Qda   6.95926   -0.47801 ! super repulsive, s=0.62
+SC1    Qd    6.95926   -0.47801 ! super repulsive, s=0.62
+SC1    QaD   6.95926   -0.47801 ! super repulsive, s=0.62
+SC1    QaE   6.95926   -0.47801 ! super repulsive, s=0.62
+SC1    Q0    6.95926   -0.47801 ! super repulsive, s=0.62
+Qda    Qd    5.27559   -1.33838 ! supra attractive
+Qda    QaD   5.27559   -1.33838 ! supra attractive
+Qda    QaE   5.27559   -1.33838 ! supra attractive
+Qda    Q0    5.27558   -1.07548 ! almost attractive
+Qd     QaD   5.27559   -1.33838 ! supra attractive
+Qd     QaE   5.27559   -1.33838 ! supra attractive
+Qd     Q0    5.27558   -1.07548 ! almost attractive
+QaD    Q0    5.27558   -1.07548 ! almost attractive
+QaE    Q0    5.27558   -1.07548 ! almost attractive
+QaD    QaE   5.27558   -1.19500 ! attractive 
+END

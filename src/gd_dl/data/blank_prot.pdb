@@ -1,0 +1,32 @@
+USER  MOD reduce.3.10.070818 H: found=0, std=0, add=12, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single :A   1 ALA N   :NH3+   -110:sc=  0.0231   (180deg=0)
+USER  MOD Single :A   2 SER OG  :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM      9  N   ALA A   1     996.457 995.954 994.401  1.00  0.00
+ATOM     10  CA  ALA A   1     995.051 995.556 994.329  1.00  0.00
+ATOM     11  C   ALA A   1     994.968 994.241 993.552  1.00  0.00
+ATOM     12  O   ALA A   1     995.659 994.002 992.568  1.00  0.00
+ATOM     13  CB  ALA A   1     994.136 996.594 993.713  1.00  0.00
+ATOM      0  H1  ALA A   1     996.784 995.855 995.341  1.00  0.00
+ATOM      0  H2  ALA A   1     997.000 995.371 993.796  1.00  0.00
+ATOM      0  H3  ALA A   1     996.549 996.908 994.115  1.00  0.00
+ATOM      0  HA  ALA A   1     994.690 995.439 995.361  1.00  0.00
+ATOM      0  HB1 ALA A   1     993.104 996.212 993.699  1.00  0.00
+ATOM      0  HB2 ALA A   1     994.177 997.519 994.308  1.00  0.00
+ATOM      0  HB3 ALA A   1     994.461 996.806 992.684  1.00  0.00
+ATOM     14  N   SER A   2     994.125 993.333 994.021  1.00  0.00
+ATOM     15  CA  SER A   2     994.221 992.025 993.393  1.00  0.00
+ATOM     16  C   SER A   2     993.316 991.881 992.177  1.00  0.00
+ATOM     17  O   SER A   2     993.484 990.814 991.598  1.00  0.00
+ATOM     18  CB  SER A   2     993.876 990.952 994.430  1.00  0.00
+ATOM     19  OG  SER A   2     992.505 991.020 994.760  1.00  0.00
+ATOM      0  H   SER A   2     993.445 993.451 994.745  1.00  0.00
+ATOM      0  HA  SER A   2     995.253 991.903 993.031  1.00  0.00
+ATOM      0  HB2 SER A   2     994.117 989.955 994.032  1.00  0.00
+ATOM      0  HB3 SER A   2     994.487 991.094 995.334  1.00  0.00
+ATOM      0  HG  SER A   2     992.289 990.315 995.436  1.00  0.00

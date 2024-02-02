@@ -1,0 +1,1157 @@
+** DATA FILE FOR REFERENCE RESIDUES FOR GEOMETRY **
+
+--------------------------------------------------------------------------
+RES ALA
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES GLY
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES SER
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES THR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES LEU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES ILE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES VAL
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES ASN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES GLN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES ARG
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC2     0
+ATM SC2   4    SC2     0
+ATM C     5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES HIS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES TRP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM SC4   6    SC3     0
+ATM C     7    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+BND SC2  SC4
+BND SC3  SC4
+IMP CA   SC2  SC3  SC1
+IMP SC1  SC2  SC4  SC3
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES PHE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES TYR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES GLU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES ASP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES LYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC2     0
+ATM SC2   4    SC2     0
+ATM C     5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2 
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES PRO
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES MET
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES NALA
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NGLY
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NSER
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NTHR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NLEU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NILE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NVAL
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NASN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NGLN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NARG
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC2     0
+ATM SC2   4    SC2     0
+ATM C     5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+ANG CA   SC1  SC2
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NHIS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NTRP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM SC4   6    SC3     0
+ATM C     7    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+BND SC2  SC4
+BND SC3  SC4
+IMP CA   SC2  SC3  SC1
+IMP SC1  SC2  SC4  SC3
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NPHE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NTYR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NGLU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NASP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NLYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC2     0
+ATM SC2   4    SC2     0
+ATM C     5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+BND SC1  SC2
+ANG CA   SC1  SC2 
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NPRO
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NCYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES NMET
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND C    +N
+BND CA   SC1
+ANG CA   C    +N
+ANG N    CA   C
+END
+
+--------------------------------------------------------------------------
+RES CALA
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+
+BND N    CA  
+BND CA   C   
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CGLY
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM C     3    ENDC    0
+
+BND N    CA  
+BND CA   C   
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CSER
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CTHR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CLEU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CILE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CVAL
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CASN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CGLN
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CARG
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC2     0
+ATM SC2   4    SC2     0
+ATM C     5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+BND SC1  SC2
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CHIS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CTRP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM SC4   6    SC3     0
+ATM C     7    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+BND SC2  SC4
+BND SC3  SC4
+IMP CA   SC2  SC3  SC1
+IMP SC1  SC2  SC4  SC3
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CPHE
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CTYR
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC3     0
+ATM SC2   4    SC3     0
+ATM SC3   5    SC3     0
+ATM C     6    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+BND SC1  SC2
+BND SC2  SC3
+BND SC1  SC3
+IMP CA   SC2  SC3  SC1
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2
+ANG CA   SC1  SC3
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CGLU
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CASP
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CLYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC2     0
+ATM SC2   4    SC2     0
+ATM C     5    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+BND SC1  SC2
+ANG -CA  CA   SC1
+ANG CA   SC1  SC2 
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CPRO
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CCYS
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+RES CMET
+
+ATM N     1    ENDC    0
+ATM CA    2    ENDC    0
+ATM SC1   3    SC1     0
+ATM C     4    ENDC    0
+
+BND N    CA  
+BND CA   C   
+BND CA   SC1
+ANG -CA  CA   SC1
+ANG N    CA   C
+ANG -C   N    CA
+DIH -CA  -C   N    CA
+END
+
+--------------------------------------------------------------------------
+LINK DISU
+
+END
+
