@@ -16,7 +16,7 @@ from run_gd_dl import preprocess_for_docking
 
 DATA_SET = sys.argv[1]
 
-NODE_LIST = list(range(5,19)) + list(range(45,50))
+NODE_LIST = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 47, 48, 49]
 SKIP_LIST = [i for i in range(1,50) if i not in NODE_LIST]
 # "star": name of cpu slurm nodes
 EXCLUDE_NODE_LIST = ['star%s'%(str(node_i).zfill(3)) for node_i in SKIP_LIST]
@@ -203,14 +203,16 @@ def create_prep_list(mode):
                 center_coord,
                 dest_dir,
                 i,
-                BOX_SIZE)
+                BOX_SIZE,
+                False)
             else:
                 arg_i = (data_dir_target/f'{pl_code}_protein.pdb',
                 crystal_ligand_mol2_file,
                 center_coord,
                 dest_dir,
                 i,
-                BOX_SIZE)
+                BOX_SIZE,
+                False)
                 
             prep_list.append(arg_i)
 

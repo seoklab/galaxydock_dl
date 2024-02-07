@@ -1,13 +1,12 @@
 import subprocess as sp
 import sys
 import time
-import pickle as pkl
 from pathlib import Path
 
+from gd_dl.lib_pdb_mol2 import MOL2
 from gd_dl.path_setting import (CASF_2016_CORE_SET,
-                                CENTER_COORD_FILE,
                                 MAIN_OUT_DIR,
-                                DATA_DIR,
+                                CASF_DIR,
                                 GD_DL_BIN_PATH,
                                 CORINA_MAIN_DIR,
                                 OBRMS_PATH,
@@ -19,7 +18,7 @@ BOX_SIZE = 22.5
 
 PCPU = 96
 
-NODE_LIST = list(range(6,19)) + list(range(43,50))
+NODE_LIST = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 47, 48, 49]
 SKIP_LIST = [i for i in range(1,50) if i not in NODE_LIST]
 # "star": name of cpu slurm nodes
 EXCLUDE_NODE_LIST = ['star%s'%(str(node_i).zfill(3)) for node_i in SKIP_LIST]
@@ -32,12 +31,7 @@ TOPK = 1
 
 TEST_S = list(filter(None,CASF_2016_CORE_SET.read_text().splitlines()))
 
-with CENTER_COORD_FILE.open('rb') as f:
-    CENTER_COORD_DICT = pkl.load(f)
-
 NUM_TEST_SET = len(TEST_S)
-
-RUN_N = NUM_TEST_SET
 
 OUT_DIR = MAIN_OUT_DIR/'test'/'gd_dl_corina'
 if not OUT_DIR.exists():
@@ -51,12 +45,6 @@ def preprocess_ligand(in_file: Path,
         print(' '.join(['chimera', '--nogui', str(PREPROCESS_SCRIPT_PATH), str(in_file), str(out_file)]))
 
     return
-
-def create_gd_dl_arguments(run_i):
-    target = TEST_S[run_i]
-    target_dir = DATA_DIR/target
-
-    return target, target_dir
 
 def get_top_n_success_rate(rmsd_output_path, topk):
     lines = list(filter(None,rmsd_output_path.read_text().splitlines()))
@@ -130,8 +118,8 @@ def multi_run_gd_dl(mode):
 
     count=0
     success_check_count = 0
-    for run_i in range(RUN_N):            
-        target, target_dir = create_gd_dl_arguments(run_i)
+    for target in TEST_S:
+        target_dir = CASF_DIR/target
 
         out_dir_target = OUT_DIR/target
         if not out_dir_target.exists():
@@ -179,11 +167,20 @@ def multi_run_gd_dl(mode):
 def create_prep_list(mode):
     assert mode == 'prep'
     prep_list = []
-    for run_i in range(RUN_N):
-        target, target_dir = create_gd_dl_arguments(run_i)
+    for target in TEST_S:
+        target_dir = CASF_DIR/target
+        
         out_dir_target = OUT_DIR/target
 
-        center_coord = CENTER_COORD_DICT[target]
+        crystal_ligand_mol2_file = target_dir/f'{target}_ligand.mol2'
+        
+        assert crystal_ligand_mol2_file.exists()
+        
+        crystal_ligand_mol2 = MOL2(crystal_ligand_mol2_file)
+        crystal_ligand_mol2.read()
+        assert len(crystal_ligand_mol2) == 1
+        center_coord = crystal_ligand_mol2[0].get_coordinates_np_array().mean(axis=0)
+        
         for i in range(STEP):
             dest_dir = out_dir_target/f'step{i}'
 
@@ -196,7 +193,7 @@ def create_prep_list(mode):
             if not charged_corina_ligand_mol2_file.exists():
                 preprocess_ligand(in_file=corina_ligand_mol2_file,
                                     out_file=charged_corina_ligand_mol2_file)
-            arg_i = (target_dir/f'{target}_contact.pdb',
+            arg_i = (target_dir/f'{target}_protein.pdb',
             charged_corina_ligand_mol2_file,
             center_coord,
             dest_dir,

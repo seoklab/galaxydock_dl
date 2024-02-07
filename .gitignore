@@ -1,7 +1,8 @@
 total_data/*
 test/*
 nohup.out
-gd_dl_src/*
+binary_src/*
+.vscode/*
 src/data/bbdep02.May.sortlib
 src/data/bbdep10.lib
 src/data/fconv_parameters_allh_ch22.in

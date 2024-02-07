@@ -16,7 +16,7 @@ POSEBUSTER_SET = POSEBUSTER_DIR / 'posebusters_benchmark_set_ids.txt'
 
 POSEBUSTER_SET_DIR = POSEBUSTER_DIR / 'posebusters_benchmark_set'
 
-PREPROCESS_SCRIPT_PATH = HOME_DIR / 'scripts' / 'multi_run_docking' / 'gd2_preprocess_ligand.py'
+PREPROCESS_SCRIPT_PATH = HOME_DIR / 'scripts' / 'gd2_preprocess_ligand.py'
 
 CORINA_MAIN_DIR = MAIN_DATA_DIR / 'corina_ligands'
 
