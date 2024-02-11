@@ -132,8 +132,6 @@ def process_input_status(contact_lines, out_dir):
 
     return protein_pdb_processed
 
-
-
 def create_gd_dl_in_file(program_dir: Path,
                        ligand_mol2: Path,
                        contact_lines: List[str],
@@ -365,7 +363,7 @@ def preprocess_for_docking(args):
     protein_pdb, ligand_mol2, home_dir, center_coord, out_dir, i, box_size, prep = args
 
     assert home_dir.exists()
-    program_dir = home_dir/'src'/'gd_dl'
+    program_dir = home_dir
     
     grid_width = 0.375
     
