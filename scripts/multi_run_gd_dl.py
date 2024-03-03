@@ -18,7 +18,7 @@ BOX_SIZE = 22.5
 PCPU = 96
 
 #NODE_LIST = list(range(46,56))# + list(range(37,47))
-NODE_LIST = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 47, 48, 49]
+NODE_LIST = list(range(1,19)) + list(range(45,50))
 
 SKIP_LIST = [i for i in range(1,50) if i not in NODE_LIST]
 # "star": name of cpu slurm nodes
@@ -57,7 +57,7 @@ def run_gd_dl_slurm(out_dir):
     if log_file.exists():
         log_file.unlink()
 
-    bash_file = Path('run2_slurm_.sh').resolve()
+    bash_file = Path('run_slurm_.sh').resolve()
     with bash_file.open('w') as f:
         f.write('#!/bin/sh\n')
         f.write(f'#SBATCH -J gd_dl\n')

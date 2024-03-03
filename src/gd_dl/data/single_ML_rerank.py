@@ -8,8 +8,8 @@ import time
 import argparse
 import torch
 
-from gd2dl.rerank_model import Rerank_model
-from gd2dl.data.ML_inference import load_files, calculate_energy
+from gd_dl.rerank_model import Rerank_model
+from gd_dl.data.ML_inference import load_files, calculate_energy
 
 READOUT = 'mean'
 

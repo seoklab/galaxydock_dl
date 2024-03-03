@@ -14,7 +14,7 @@ from torch_geometric.data import Batch
 
 import gc
 
-from gd2dl.rerank_model import Rerank_model
+from gd_dl.rerank_model import Rerank_model
 
 READOUT = 'mean'
 

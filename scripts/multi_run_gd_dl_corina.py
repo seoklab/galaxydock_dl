@@ -65,7 +65,7 @@ def run_gd_dl_slurm(out_dir):
     if log_file.exists():
         log_file.unlink()
 
-    bash_file = Path('run2_slurm_.sh').resolve()
+    bash_file = Path('run_corina_slurm_.sh').resolve()
     with bash_file.open('w') as f:
         f.write('#!/bin/sh\n')
         f.write(f'#SBATCH -J gd_dl_corina\n')
