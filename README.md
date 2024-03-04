@@ -132,4 +132,4 @@ $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina result
 
 # License
 
-All code is licensed under MIT license, the weights of the neural networks are licensed under CC BY 4.0.
+All code is licensed under MIT license, the weights of the neural networks are licensed under CC BY-NC 4.0.
