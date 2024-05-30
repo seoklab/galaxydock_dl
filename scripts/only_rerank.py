@@ -480,7 +480,7 @@ def calc_e(args):
     'bucket' : torch.tensor([1.5,1.9,2.3,2.7,3.1,3.5,4.0,4.5,5.0,5.5,6.0]),
     'n_edge': 19,'zip':2}
 
-    fn_sampling_model = rerank_model.with_stem('rerank_model.pt','sampling_model.pt')
+    fn_sampling_model = rerank_model.parent/'sampling_model.pt'
     fn_rerank_model = rerank_model
 
     fn_sampling_model_list = [fn_sampling_model, fn_sampling_model[:-3] + '_0.pt', fn_sampling_model[:-3] + '_1.pt']
@@ -509,14 +509,14 @@ def calc_e(args):
 
     all_zip = preprocess_for_docking(args)
     
-    sampling_energy = 0.0
+    energy = 0.0
     with torch.no_grad():
         graph_s_1, n_atom, mol2_unit_list = prepare_input(all_zip, mol_fn, model_1_feature_dict)
         graph_s_1 = Batch.from_data_list(graph_s_1)
         graph_s_1 = graph_s_1.to(device=device)
         for model_i in sampling_model_list:
             energy_i = model_i(graph_s_1,n_atom)
-            sampling_energy += energy_i
+            energy += energy_i
         
         del graph_s_1
         gc.collect()
@@ -524,13 +524,13 @@ def calc_e(args):
         graph_s_2, _, _ = prepare_input(all_zip, mol_fn, model_2_feature_dict)
         graph_s_2 = Batch.from_data_list(graph_s_2)
         graph_s_2 = graph_s_2.to(device=device)
-        rerank_energy = rerank_model(graph_s_2,n_atom)
+        energy_rerank = rerank_model(graph_s_2,n_atom)
+        energy += energy_rerank
         
         del graph_s_2
         gc.collect()
-
-        energy = sampling_energy/len(fn_sampling_model_list) + rerank_energy
-        energy /= 2.0
+        
+        energy /= len(fn_sampling_model_list) + 1
 
     out_fn_mol2 = out_dir/'reranked_fb.mol2'
     out_fn_energy = out_dir/'reranked_score.info'
