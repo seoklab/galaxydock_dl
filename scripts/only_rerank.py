@@ -483,7 +483,9 @@ def calc_e(args):
     fn_sampling_model = rerank_model.parent/'sampling_model.pt'
     fn_rerank_model = rerank_model
 
-    fn_sampling_model_list = [fn_sampling_model, fn_sampling_model[:-3] + '_0.pt', fn_sampling_model[:-3] + '_1.pt']
+    fn_sampling_model_list = [str(fn_sampling_model),
+                              str(fn_sampling_model)[:-3] + '_0.pt',
+                              str(fn_sampling_model)[:-3] + '_1.pt']
     
     sampling_model_list = []
     
@@ -503,7 +505,7 @@ def calc_e(args):
                                 edge_dim_in=model_2_feature_dict['n_edge'],
                                 readout=READOUT,ligand_only=True).to(device)
 
-    checkpoint = torch.load(fn_rerank_model, map_location=device)
+    checkpoint = torch.load(str(fn_rerank_model), map_location=device)
     rerank_model.load_state_dict(checkpoint['model_state_dict'])
     rerank_model.eval()
 
