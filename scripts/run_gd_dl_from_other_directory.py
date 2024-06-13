@@ -405,11 +405,12 @@ if __name__ == '__main__':
 
     center_coord = (float(parse_args.x), float(parse_args.y), float(parse_args.z))
 
-    out_dir = Path(parse_args.out_dir)
+    out_dir = Path(parse_args.out_dir).resolve()
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    args = (Path(parse_args.p),
-            Path(parse_args.l),
-            Path(parse_args.d),
+    args = (Path(parse_args.p).resolve(True),
+            Path(parse_args.l).resolve(True),
+            Path(parse_args.d).resolve(True),
             center_coord,
             out_dir,
             parse_args.random_seed,
