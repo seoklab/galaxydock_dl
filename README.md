@@ -71,9 +71,13 @@ $ python scripts/run_gd_dl_from_other_directory -d <Path to main directory> -p <
 ```
 
 ### Output files
-GalaxyDock_fb.mol2: final output ligand poses sorted by total score<br/>
-GalaxyDock_fb.E.info: scores of final output ligand poses in the final bank sorted by total score<br/>
-For GalaxyDock_fb.E.info, second column is ranking scores of output poses inferenced by neural network scoring functions. You can ignore values in l_RMSD column since they just represent RMSD calculated by Hungarian algorithm between processed input ligand poses and output ligand poses.<br/>
+- `GalaxyDock_fb.mol2`: Contains the final output ligand poses, sorted by total score.
+- `GalaxyDock_fb.E.info`: Provides the scores of the final output ligand poses in the final bank, sorted by total score.
+
+For `GalaxyDock_fb.E.info`:
+- The second column (Energy) shows the ranking scores of output poses inferred by neural network scoring functions.
+- You can ignore the values in the l_RMSD column, as they only represent RMSD calculated by the Hungarian algorithm between processed input ligand poses and output ligand poses.
+- You can also ignore the other columns, which correspond to the values of GalaxyDock BP2 Score energy components multiplied by their weights (ATDK_E: AutoDock Energy, INT_E: AutoDock intra-ligand energy, DS_E: Drug Score, HM_E: Hydrophobic interaction, PLP: PLP score).
 
 GalaxyDock_ib.mol2: Initial ligand conformations in the first bank<br/>
 box.pdb: Representation of docking box<br/>
@@ -128,6 +132,31 @@ $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina prep
 $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina run
 $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina rmsd
 $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina result
+```
+
+### How to compile the binary file ligdock
+
+We recommend using the precompiled 'ligdock' binary file located in `src/gd_dl/bin/`. If you wish to compile it yourself, navigate to the `binary_src/` directory by running `cd binary_src/` and then execute the following commands (note the ".." at the end of the second command):
+
+```bash
+$ mkdir -p build && cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=icc -DCMAKE_Fortran_COMPILER=ifort ..
+$ cmake --build . --target all -j8
+```
+
+This will generate a new 'ligdock' binary file in the `binary_src/bin/` directory.
+
+If you want to replace the original binary file with the new one, you can execute the following command:
+
+```bash
+$ cp ../bin/ligdock ../../src/gd_dl/bin/ligdock
+```
+
+# Citation
+
+If you utilize this code or the models in your research, please cite the following paper:
+```bash
+
 ```
 
 # License
