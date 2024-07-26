@@ -181,4 +181,4 @@ If you utilize this code or the models in your research, please cite the followi
 
 # License
 
-All code is licensed under MIT license, the weights of the neural networks are licensed under CC BY-NC 4.0.
+All code, except for the code in the "binary_src" directory, is licensed under the MIT license. The weights of the neural networks are licensed under the CC BY-NC 4.0 license. Code in the "binary_src" directory is licensed under the CC BY-NC-ND 4.0 license.
