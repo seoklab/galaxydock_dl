@@ -134,9 +134,13 @@ $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina rmsd
 $ python scripts/posebuster_multi_run_gd_dl.py posebuster_corina result
 ```
 
-### How to compile the binary file ligdock
+### Precompiled Binary
 
-We recommend using the precompiled 'ligdock' binary file located in `src/gd_dl/bin/`. If you wish to compile it yourself, navigate to the `binary_src/` directory by running `cd binary_src/` and then execute the following commands (note the ".." at the end of the second command):
+We recommend using the precompiled 'ligdock' binary file located in `src/gd_dl/bin/`.
+
+### Compiling from Source
+
+If you wish to compile it yourself, navigate to the `binary_src/` directory by running `cd binary_src/` and then execute the following commands (note the ".." at the end of the second command):
 
 ```bash
 $ mkdir -p build && cd build
@@ -145,6 +149,22 @@ $ cmake --build . --target all -j8
 ```
 
 This will generate a new 'ligdock' binary file in the `binary_src/bin/` directory.
+
+Ensure that the following compilers are installed before compiling:
+
+- **icc (Intel C Compiler)**
+
+```
+icc (ICC) 2021.9.0 20230302
+Copyright (C) 1985-2023 Intel Corporation.  All rights reserved.
+```
+
+- **ifort (Intel Fortran Compiler)**
+
+```
+ifort (IFORT) 2021.9.0 20230302
+Copyright (C) 1985-2023 Intel Corporation.  All rights reserved.
+```
 
 If you want to replace the original binary file with the new one, you can execute the following command:
 
