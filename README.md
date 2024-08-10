@@ -175,8 +175,14 @@ $ cp ../bin/ligdock ../../src/gd_dl/bin/ligdock
 # Citation
 
 If you utilize this code or the models in your research, please cite the following paper:
-```bash
-
+```
+@article{lee2024galaxydock,
+  title={GalaxyDock-DL: Protein--Ligand Docking by Global Optimization and Neural Network Energy},
+  author={Lee, Changsoo and Won, Jonghun and Ryu, Seongok and Yang, Jinsol and Jung, Nuri and Park, Hahnbeom and Seok, Chaok},
+  journal={Journal of Chemical Theory and Computation},
+  year={2024},
+  publisher={ACS Publications}
+}
 ```
 
 # License
