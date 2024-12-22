@@ -2,6 +2,11 @@ total_data/*
 test/*
 nohup.out
 .vscode/*
+*.sh
+example/output_dir/*
+**/parameters_cgenff.in
+colab_env.yml
+.gitignore
 src/data/bbdep02.May.sortlib
 src/data/bbdep10.lib
 src/data/fconv_parameters_allh_ch22.in

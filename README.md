@@ -102,6 +102,12 @@ Running docking for the CASF-2016 core set and PoseBusters test set to reproduce
 You can tailor this scripts to work well in your SLURM settings or other linux job schedulers.<br/>
 Data directory "total_data/" should be downloaded from [link](https://drive.google.com/file/d/1sILlVoda3_f6E3oc4Rr8Jn6Ae93zA7q4/view?usp=sharing) and unzipped into a folder in the main directory.<br/>
 
+To run the scripts without SLURM, prefix the script filename with `noslurm_`. Since docking tests can be time-consuming, you can take advantage of multi-CPU support in **run mode** provided by the `noslurm_*` scripts. For instance, you can execute the following command to utilize multiple CPUs:
+
+```bash
+python scripts/noslurm_multi_run_gd_dl.py run {n_cpu}
+```
+
 This is for CASF-2016 core set
 ```bash
 $ python scripts/multi_run_gd_dl.py prep
